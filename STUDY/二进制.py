@@ -1,3 +1,6 @@
+with open("test.txt",mode='w',encoding = 'utf-8') as file: #作为file打开文件, 此方法不用关闭file.close()
+
+
 import pickle  # 二进制
 import os
 data = {'zhangsan': 1434, 'lisi': 49080}

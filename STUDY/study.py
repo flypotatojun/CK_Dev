@@ -103,9 +103,8 @@ print(r.encoding)
 print(r.headers)  # Http标头
 print(r.status_code)  # Http状态码
 # ===============================================================
+
 '''
-
-
 
 
 

@@ -38,7 +38,7 @@ f.replace('\\', '/') #Result: S:/QSJResources/Shot/GodGunStory/S3_E11/
 allCam = mc.ls(long = True,type = "camera") #列出所有摄像机
 allCam.sort(key=len, reverse=True) #按名称长度排列
 renderCam = allCam[0].split('|')[1] #字符串按照|拆分开，并取第二位
-renderCam2=''.join(renderCam) #
+renderCam2=''.join(renderCam) #连接每个字符串''中指定以什么方式连接（-，：，|）等
 
 children = mc.listRelatives(obj,children=True, fullPath=True) or [] #获得物体的shape节点
 
