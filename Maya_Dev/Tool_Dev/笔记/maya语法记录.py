@@ -42,3 +42,5 @@ renderCam2=''.join(renderCam) #连接每个字符串''中指定以什么方式�
 
 children = mc.listRelatives(obj,children=True, fullPath=True) or [] #获得物体的shape节点
 
+maya_renderer = "%s/bin/Render.exe" % os.getenv("MAYA_LOCATION").replace('\\', '/')
+#Result: C:/Program Files/Autodesk/Maya2016/bin/Render.exe

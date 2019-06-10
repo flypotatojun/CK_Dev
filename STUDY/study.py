@@ -9,6 +9,17 @@
 类：单词首字母大写;无下划线 如: FemaleCat
 # ===============================================================
 Sublime Text Tips
+1.安装 Python 3 [记得勾上add path]
+2.安装和配置 Sublime Text 3
+	1)安装 Package Control
+	2)安装 SideBarEnhancements
+	3)安装 A File Icon
+	4)安装 Anaconda  [http://damnwidget.github.io/anaconda/IDE/]
+	5)运行 0_Hello_World.py
+	6)改变 Theme[可选]
+	7)安装 BufferScroll (在网盘) [https://github.com/titoBouzout/BufferScroll]
+    8)安装 SublimeREPL [https://github.com/wuub/SublimeREPL]
+
 Ctrl + 鼠标点击可以出现多个光标，同时编辑，Alt + 中键去掉某个光标;不按Ctrl单击鼠标可以退出
 选中一段字符，按引号键可将其引起来
 
