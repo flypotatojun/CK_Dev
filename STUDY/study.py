@@ -20,6 +20,8 @@ Sublime Text Tips
 	7)安装 BufferScroll (在网盘) [https://github.com/titoBouzout/BufferScroll]
     8)安装 SublimeREPL [https://github.com/wuub/SublimeREPL]
 
+
+
 Ctrl + 鼠标点击可以出现多个光标，同时编辑，Alt + 中键去掉某个光标;不按Ctrl单击鼠标可以退出
 选中一段字符，按引号键可将其引起来
 
@@ -116,7 +118,16 @@ print(r.status_code)  # Http状态码
 # ===============================================================
 
 '''
+#maya中运行sublimeText
 
+# if it was already open under another configuration
+cmds.commandPort(name=":7002", close=True)
+
+# now open a new port
+cmds.commandPort(name=":7002", sourceType="python")
+
+# or open some random MEL port (make sure you change it to this port in your config file)
+cmds.commandPort(name=":10000", sourceType="mel")
 
 
 

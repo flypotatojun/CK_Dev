@@ -8,3 +8,9 @@ desti = 'cam:ep01sc03cam04s424e4255'.split()
 
 desti.remove('cam:ep01sc03cam04')
 print(desti)
+
+
+
+import maya.cmds as mc
+mc.sphere()
+print"hello"

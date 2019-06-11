@@ -11,8 +11,8 @@ whatIs() #在mel下面运行可以查找命令说明
 import maya.mel as mel #python执行mel命令
 mel.eval('select - add item')
 
-python "import maya.cmds as mc"; #mel中执行python
-python "mc.select(\'item\',r=True)"; #mel中执行python
+python "import maya.cmds as mc" #mel中执行python
+python "mc.select(\'item\',r=True)" #mel中执行python
 
 
 
