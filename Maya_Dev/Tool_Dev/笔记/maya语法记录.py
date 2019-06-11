@@ -2,7 +2,7 @@
 '''写好的py文件保存在scripts下面，新建文件夹名称为工具包名，
 文件夹内建__init__.py,工具名.py,这样在maya里可以直接import调用'''
 import maya.cmds as mc
-import pymel.core as pymel
+import pymel.core as pm
 import os,sys
 
 
@@ -44,3 +44,12 @@ children = mc.listRelatives(obj,children=True, fullPath=True) or [] #获得物�
 
 maya_renderer = "%s/bin/Render.exe" % os.getenv("MAYA_LOCATION").replace('\\', '/')
 #Result: C:/Program Files/Autodesk/Maya2016/bin/Render.exe
+
+mc.internalVar(userAppDir=True)
+# Result: u'C:/Users/Administrator/Documents/maya/'
+
+pm.workspace.getcwd() #新
+pm.workspace(query=1, dir=1) #老
+# 获取当前文件所在目录,maya中会返回 Result: Path('D:/') ，转成str()可以去除u,Path等字符
+
+mc.file(q=True, sn=1, shn=1) #获取当前maya的文件名
