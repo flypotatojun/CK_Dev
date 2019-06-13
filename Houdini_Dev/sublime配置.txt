@@ -1,0 +1,14 @@
+1.sublime安装插件jedi
+2.jedi->setting default下找到对应内容输入：
+    // You can set a path to your python interpreter,
+    // for example `/home/user/.virtualenvs/myenv/bin/python)`.
+    "python_interpreter": "C:\\Program Files\\Side Effects Software\\Houdini 17.0.416\\bin\\hython.exe",
+    
+    // Additional python package paths.
+    "python_package_paths": ["C:\\Program Files\\Side Effects Software\\Houdini 17.0.416\\python27\\lib",
+                        "C:\\Program Files\\Side Effects Software\\Houdini 17.0.416\\python27\\lib\\site-packages",
+                        "C:\\Program Files\\Side Effects Software\\Houdini 17.0.416\\houdini\\python2.7libs",
+                        "C:\\Program Files\\Autodesk\\Maya2018\\Python\\Lib\\site-packages",
+
+    ],
+3.houdini->variables添加 EDITOR：C:\Program Files\Sublime Text 3\sublime_text.exe
