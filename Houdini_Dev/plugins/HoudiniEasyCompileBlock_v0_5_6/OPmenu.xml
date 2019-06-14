@@ -1,0 +1,87 @@
+<menuDocument>
+  <!-- menuDocument can only contain 1 menu element, whose id is 
+         implicitly "root_menu"
+      -->
+  <menu>
+    <subMenu id="houdini_easy_compile_block_menu">
+      <label>Easy Compile</label>
+      <context>
+        <expression>
+          <![CDATA[
+try:
+  from HoudiniEasyCompileBlock import houdini_easy_compile_block
+  reload(houdini_easy_compile_block)
+  return houdini_easy_compile_block.is_valid_forloop_compilation(kwargs["node"]) or \
+         len(hou.selectedNodes()) > 1
+except Exception as e:
+  return False]]>
+        </expression>
+      </context>
+      <scriptItem id="houdini_easy_compile_block">
+        <label>Compile For loop</label>
+        <context>
+          <expression>
+            <![CDATA[
+try:
+  from HoudiniEasyCompileBlock import houdini_easy_compile_block
+  reload(houdini_easy_compile_block)
+  return houdini_easy_compile_block.is_valid_forloop_compilation(kwargs["node"])
+except Exception as e:
+  return False]]>
+          </expression>
+        </context>
+        <scriptCode>
+          <![CDATA[
+from HoudiniEasyCompileBlock import houdini_easy_compile_block
+reload(houdini_easy_compile_block)
+houdini_easy_compile_block.compile_forloop(node=kwargs["node"])
+]]>
+        </scriptCode>
+      </scriptItem>
+
+      <scriptItem id="houdini_easy_compile_block_selection">
+        <label>Compile Node Selection</label>
+        <context>
+          <expression>
+            <![CDATA[
+try:
+  import hou
+  return len(hou.selectedNodes()) > 1
+except Exception as e:
+  return False]]>
+          </expression>
+        </context>
+        <scriptCode>
+          <![CDATA[
+from HoudiniEasyCompileBlock import houdini_easy_compile_block
+reload(houdini_easy_compile_block)
+houdini_easy_compile_block.compile_selection()
+]]>
+        </scriptCode>
+      </scriptItem>
+
+      <scriptItem id="houdini_easy_compile_updade_node">
+        <label>Easy Compile Block: Update Node</label>
+        <context>
+          <expression>
+            <![CDATA[
+try:
+  from HoudiniEasyCompileBlock import houdini_easy_compile_block
+  reload(houdini_easy_compile_block)
+  return houdini_easy_compile_block.is_valid_for_node_update(node=kwargs["node"])
+except Exception as e:
+  return False]]>
+          </expression>
+        </context>
+        <scriptCode>
+          <![CDATA[
+from HoudiniEasyCompileBlock import houdini_easy_compile_block
+reload(houdini_easy_compile_block)
+houdini_easy_compile_block.update_selected_node(node=kwargs["node"])
+]]>
+        </scriptCode>
+      </scriptItem>
+
+  </subMenu>
+  </menu>
+</menuDocument>

@@ -11,4 +11,5 @@
                         "C:\\Program Files\\Autodesk\\Maya2018\\Python\\Lib\\site-packages",
 
     ],
-3.houdini->variables添加 EDITOR：C:\Program Files\Sublime Text 3\sublime_text.exe
+3.houdini.env 添加 EDITOR = "C:/Program Files/Sublime Text 3/sublime_text.exe"
+4.安装VEX 插件，新建文件后缀名为.vfl，快捷键ctrl+alt+d 帮助

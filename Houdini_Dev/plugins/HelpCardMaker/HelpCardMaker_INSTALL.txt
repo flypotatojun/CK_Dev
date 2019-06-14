@@ -1,0 +1,18 @@
+
+Extract HelpCardMaker.zip to $HOME/houdini16.0/ folder ( or your current version of Houdini ).
+Use "Extract here" function.
+
+File to install:
+----------------
+$HOME/houdiniXX.X/scripts => scripts
+$HOME/houdiniXX.X/python_panels => python_panels
+$HOME/houdiniXX.X/config => config
+
+----------------
+
+Extra infos on install:
+cgtoolbox.com/helpcard-maker/
+
+
+www.cgtoolbox.com
+contact@cgtoolbox.com

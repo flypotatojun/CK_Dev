@@ -1,0 +1,17 @@
+
+Extract HoudiniEasyCompileBlock.zip to $HOME/houdini16.0/ folder ( or your current version of Houdini ).
+Use "Extract here" function.
+
+File to install:
+----------------
+$HOME/houdiniXX.X/scripts => scripts
+$HOME/houdiniXX.X// => OPmenu.xml
+
+----------------
+
+Extra infos on install:
+cgtoolbox.com/houdini-easy-compile-block/
+
+
+www.cgtoolbox.com
+contact@cgtoolbox.com
