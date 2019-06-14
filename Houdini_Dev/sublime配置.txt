@@ -5,7 +5,7 @@
     "python_interpreter": "C:\\Program Files\\Side Effects Software\\Houdini 17.0.416\\bin\\hython.exe",
     
     // Additional python package paths.
-    "python_package_paths": ["C:\\Program Files\\Side Effects Software\\Houdini 17.0.416\\python27\\lib",
+    "python_package_paths": ["C:\\Program Files\\Side Effects Software\\Houdini 17.0.416\\python27\\libs",
                         "C:\\Program Files\\Side Effects Software\\Houdini 17.0.416\\python27\\lib\\site-packages",
                         "C:\\Program Files\\Side Effects Software\\Houdini 17.0.416\\houdini\\python2.7libs",
                         "C:\\Program Files\\Autodesk\\Maya2018\\Python\\Lib\\site-packages",
