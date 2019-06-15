@@ -10,7 +10,7 @@ os.chdir('路径')  # ->更改当前显示的路径
 os.getenv('path')  # ->获取系统变量路径，path为系统变量默认名
 os.getenv('os')  # ->获取系统名
 os.putenv('name', 'path')  # ->添加环境变量name变量名，path变量路径
-os.listdir(.)  # ->.表示当前目录，也可填入路径
+os.listdir('.')  # ->.表示当前目录，也可填入路径
 file.close()  # 关闭文件
 file.closed  # True 判断是否关闭了文件
 os.remove('text.txt')  # 删除文件

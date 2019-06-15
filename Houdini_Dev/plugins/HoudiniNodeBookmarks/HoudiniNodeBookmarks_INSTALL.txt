@@ -1,0 +1,19 @@
+
+Extract HoudiniNodeBookmarks.zip to $HOME/houdini16.0/ folder ( or your current version of Houdini ).
+Use "Extract here" function.
+
+File to install:
+----------------
+$HOME/houdiniXX.X/scripts => scripts
+$HOME/houdiniXX.X/python_panels => python_panels
+$HOME/houdiniXX.X/config => config
+$HOME/houdiniXX.X/toolbar => toolbar
+
+----------------
+
+Extra infos on install:
+cgtoolbox.com/houdini-node-bookmarks-2/
+
+
+www.cgtoolbox.com
+contact@cgtoolbox.com

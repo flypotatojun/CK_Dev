@@ -1,0 +1,1 @@
+C:\Program Files\Side Effects Software\Houdini 17.0.416\python27

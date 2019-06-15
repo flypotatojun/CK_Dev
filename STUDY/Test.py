@@ -1,9 +1,16 @@
-import pickle  # 二进制
-import os
-data = {'zhangsan': 1434, 'lisi': 49080}
-with open('text.txt', mode='wb') as f:  # wb写入二进制文件
-    pickle.dump(data, f)  # 写入data数据用dump，会动创建文件
+#import re
+#import difflib
+desti = 'cam:ep01sc03cam04s424e4255'.split()
 
-with open('text.txt', mode='rb') as f:  # rb读取二进制文件
-    of = pickle.load(f)  # 打开文件
-    print(of)
+#pattern = re.compile(r'\d')
+#m = pattern.search(desti)
+#m = pattern.findall(desti)
+
+desti.remove('cam:ep01sc03cam04')
+print(desti)
+
+
+
+import maya.cmds as mc
+mc.sphere()
+print"hello"
