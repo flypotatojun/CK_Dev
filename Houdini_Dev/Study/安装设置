@@ -1,0 +1,28 @@
+settings.json WIN设置
+{
+    "python.pythonPath": "C://Program Files//Autodesk//Maya2018//bin//mayapy.exe",
+    "python.autoComplete.extraPaths":["C:/PROGRA~1/SIDEEF~1/HOUDIN~1.416/houdini/python2.7libs",
+        "C:/Program Files/Side Effects Software/Houdini 17.0.416/python27/lib/site-packages",
+        "C:/Program Files/Side Effects Software/Houdini 17.0.416/python27/lib/site-packages-forced",
+        "C:/Program Files/Side Effects Software/Houdini 17.0.416/python27/lib/site-packages-ui-forced",
+        "C:/Program Files/Autodesk/Maya2018/devkit/devkit/other/pymel/extras/completion/py",
+
+    ],
+    "python.autocomplete.preloadModules":["C:/Program Files/Autodesk/Maya2018/modules","hou"]
+    "python.jediEnabled": false
+}
+
+OSX设置
+{
+    //"python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.7/bin/python3",
+    "python.python.Path": "/Applications/Autodesk/maya2016/Maya.app/Contents/bin/mayapy",
+	"python.autoComplete.extraPaths": ["/Applications/Houdini/Houdini16.0.621/Frameworks/Houdini.framework/Versions/16.0.621/Resources/houdini/python2.7libs","/Applications/Autodesk/maya2016/devkit/other/pymel/extras/completion/py",],
+    "python.jediEnabled": false,
+    "python.pythonPath": "/usr/local/bin/python3",
+
+
+}
+
+
+安装插件：
+python，Code Run
