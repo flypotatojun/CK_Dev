@@ -1,0 +1,12 @@
+{
+    "python.pythonPath": "C://Program Files//Autodesk//Maya2018//bin//mayapy.exe",
+    "python.autoComplete.extraPaths":["C:/PROGRA~1/SIDEEF~1/HOUDIN~1.416/houdini/python2.7libs",
+        "C:/Program Files/Side Effects Software/Houdini 17.0.416/python27/lib/site-packages",
+        "C:/Program Files/Side Effects Software/Houdini 17.0.416/python27/lib/site-packages-forced",
+        "C:/Program Files/Side Effects Software/Houdini 17.0.416/python27/lib/site-packages-ui-forced",
+        "C:/Program Files/Autodesk/Maya2018/devkit/devkit/other/pymel/extras/completion/py",
+
+    ],
+    "python.autocomplete.preloadModules":["C:/Program Files/Autodesk/Maya2018/modules","hou"]
+    "python.jediEnabled": false
+}
