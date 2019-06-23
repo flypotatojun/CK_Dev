@@ -38,7 +38,7 @@ for shd in shaders:
 
         redVopNet.layoutChildren()
         redShaders.layoutChildren()
-        
+
 
 redShaders.setName('new_' + materials_name)
 update_node = hou.ui.selectNode(initial_node=redShaders.parent())
@@ -50,7 +50,4 @@ for i in range(num_mats):
     i = i+1
     old_path = sel_update_node.evalParm('shop_materialpath%d' %i)
     new_path = old_path.replace("materials", 'new_' + materials_name)
-    sel_update_node.parm('shop_materialpath%d' %i).set(new_path)      
-        
-
-
+    sel_update_node.parm('shop_materialpath%d' %i).set( new_path )

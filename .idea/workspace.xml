@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="017901ba-d111-48bc-a1d2-62df8e3e153e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Houdini_Dev/sublime配置.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Houdini_Dev/sublime配置.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Houdini_Dev/Tool_Collections/Import_All_Obj_In_Directory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Houdini_Dev/Tool_Collections/Material_Convert_RS" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Houdini_Dev/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Houdini_Dev/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/num1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/num2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/PySide2笔记/PySide2笔记1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/PySide2笔记/PySide2笔记2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/PySide2笔记/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/PySide笔记/PySide笔记.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/PySide笔记/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/maya语法记录.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/maya语法记录.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/列表与字符串互转" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/语法记录.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +33,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/STUDY/os.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="689">
+            <state relative-caret-position="1316">
               <caret line="48" selection-start-line="48" selection-end-line="48" />
             </state>
           </provider>
@@ -30,17 +42,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/STUDY/Example/threadTest_tutor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state>
+              <caret selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Houdini_Dev/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="868">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Houdini_Dev/test.py">
+        <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/根据场景名修改摄像机属性和帧数.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="308">
+              <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -90,6 +111,7 @@
         <option value="$PROJECT_DIR$/STUDY/Example/idMatch_Tutor.py" />
         <option value="$PROJECT_DIR$/STUDY/Example/threadTest_tutor.py" />
         <option value="$PROJECT_DIR$/Houdini_Dev/test.py" />
+        <option value="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/根据场景名修改摄像机属性和帧数.py" />
       </list>
     </option>
   </component>
@@ -101,10 +123,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-334" />
-    <option name="y" value="502" />
+    <option name="x" value="2251" />
+    <option name="y" value="63" />
     <option name="width" value="1482" />
-    <option name="height" value="1047" />
+    <option name="height" value="841" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -112,6 +134,61 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CK_Dev" type="47feb1d3:ProjectViewModuleNode" />
+            </path>
+            <path>
+              <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CK_Dev" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="CK_Dev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CK_Dev" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="CK_Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="Maya_Dev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CK_Dev" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="CK_Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="Maya_Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="Tool_Dev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CK_Dev" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="CK_Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="Maya_Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="Tool_Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="笔记" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CK_Dev" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="CK_Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="Maya_Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="Tool_Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="笔记" type="462c0819:PsiDirectoryNode" />
+              <item name="实战课笔记" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CK_Dev" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="py" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Problems'; set:Problems; class com.intellij.psi.search.scope.ProblemsScope">
           <expand>
@@ -141,43 +218,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CK_Dev" type="47feb1d3:ProjectViewModuleNode" />
-            </path>
-            <path>
-              <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CK_Dev" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="CK_Dev" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CK_Dev" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="CK_Dev" type="462c0819:PsiDirectoryNode" />
-              <item name="Houdini_Dev" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 2.7 (py) &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="C:/Program Files/Side Effects Software/Houdini 17.0.416/python27/lib/site-packages-ui-forced" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -360,10 +406,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1913" y="0" width="974" height="1047" extended-state="1" />
+    <frame x="2251" y="63" width="1482" height="841" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4986979" visible="true" weight="0.5315508" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4986979" visible="true" weight="0.24116424" />
       <window_info id="Structure" order="1" sideWeight="0.50130206" side_tool="true" weight="0.16260698" />
       <window_info id="Favorites" order="2" sideWeight="0.50130206" side_tool="true" weight="0.16260698" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -377,7 +423,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49625668" weight="0.3278867" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.2751713" side_tool="true" weight="0.22657952" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.72482866" weight="0.22772278" />
-      <window_info anchor="bottom" id="MayaLog" order="11" sideWeight="0.4928835" weight="0.17973857" />
+      <window_info active="true" anchor="bottom" id="MayaLog" order="11" sideWeight="0.4928835" visible="true" weight="0.17923187" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -465,26 +511,8 @@
     <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/PySide2笔记/PySide2笔记1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="e#94#104#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/PySide笔记/PySide笔记.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding>
-            <element signature="e#16#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/PySide2笔记/PySide2笔记1.py" />
+    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/PySide笔记/PySide笔记.py" />
     <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/批量创建文件.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -492,16 +520,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/PySide2笔记/PySide2笔记2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
-          <folding>
-            <element signature="e#95#105#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/PySide2笔记/PySide2笔记2.py" />
     <entry file="file://$PROJECT_DIR$/STUDY/函数.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
@@ -509,23 +528,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/列表与字符串互转">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/语法记录.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/test.py" />
+    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/列表与字符串互转" />
+    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/语法记录.py" />
     <entry file="file://$PROJECT_DIR$/STUDY/Test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -536,25 +541,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/STUDY/案例/num1.txt" />
     <entry file="file://$PROJECT_DIR$/STUDY/案例/idMatch.py" />
-    <entry file="file://$PROJECT_DIR$/num2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="105" column="18" lean-forward="true" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/num2.txt" />
+    <entry file="file://$PROJECT_DIR$/num1.txt" />
     <entry file="file://$PROJECT_DIR$/STUDY/Module.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
@@ -602,22 +593,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/STUDY/os.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
+        <state relative-caret-position="1316">
           <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/STUDY/Example/threadTest_tutor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Houdini_Dev/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="868">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/STUDY/Example/threadTest_tutor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/根据场景名修改摄像机属性和帧数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
         </state>
       </provider>
     </entry>

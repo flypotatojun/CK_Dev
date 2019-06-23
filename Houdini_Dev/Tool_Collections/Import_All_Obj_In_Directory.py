@@ -1,4 +1,5 @@
 import os
+import hou
 
 #弹出选择框，框名为"select Obj Directory",文件类型为houdini文件目录
 obj_dir = hou.ui.selectFile(title="Select Obj Directory", file_type=hou.fileType.Directory)

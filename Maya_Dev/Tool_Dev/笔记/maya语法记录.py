@@ -53,3 +53,40 @@ pm.workspace(query=1, dir=1) #老
 # 获取当前文件所在目录,maya中会返回 Result: Path('D:/') ，转成str()可以去除u,Path等字符
 
 mc.file(q=True, sn=1, shn=1) #获取当前maya的文件名
+pm.sceneName() # 获取当前maya的路径
+
+
+# 获取module路径
+os.environ["MAYA_MODULE_PATH"]
+
+#返回所选路劲下文件的名字
+path = os.listdir(path)
+
+mc.file( force=True, new=True ) #新建文件
+mc.polySphere() #创建一个小球
+mc.file( rename='child.ma' ) #重命名
+mc.file( 'path',force=True, type='mayaAscii', save=True ) #保存到指定路径
+
+
+
+# 列出指定路径下的文件夹
+import os
+path = r'D:\CK_Dev\CKTOOLS'
+modFile = [f for f in os.listdir(path) if os.path.isdir(os.path.join(path,f))]
+print i
+
+
+
+#########################################################################################
+#查找没有返回值的命令
+//例如，先找到命令在哪个节点中，有些节点在大纲中找不到，可以在知道名字的前提下在搜索里面输入 defaultRenderGlobals 
+#列出所选节点下所有的命令名
+ai_driver = pm.PyNode('defaultRenderGlobals')
+pm.listAttr(ai_driver)
+
+
+
+#设置渲染属性
+mc.setAttr("defaultRenderGlobals.currentRenderer", "arnold", type="string")
+mc.setAttr('defaultresolution.width',1280)
+mc.setAttr('defaultresolution.height',720)
