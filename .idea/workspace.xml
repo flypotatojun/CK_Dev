@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="017901ba-d111-48bc-a1d2-62df8e3e153e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houdini_Dev/Tool_Collections/Import_All_Obj_In_Directory" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houdini_Dev/Tool_Collections/Material_Convert_RS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Houdini_Dev/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Houdini_Dev/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/PySide2笔记/PySide2笔记1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/PySide2笔记/PySide2笔记2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/PySide2笔记/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/PySide笔记/PySide笔记.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/PySide笔记/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/maya语法记录.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/maya语法记录.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/列表与字符串互转" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/语法记录.py" beforeDir="false" />
-    </list>
+    <list default="true" id="017901ba-d111-48bc-a1d2-62df8e3e153e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/根据场景名修改摄像机属性和帧数.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+            <state relative-caret-position="336">
+              <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -122,7 +105,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="2251" />
     <option name="y" value="63" />
     <option name="width" value="1482" />
@@ -145,36 +128,6 @@
               <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
               <item name="CK_Dev" type="47feb1d3:ProjectViewModuleNode" />
               <item name="CK_Dev" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CK_Dev" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="CK_Dev" type="462c0819:PsiDirectoryNode" />
-              <item name="Maya_Dev" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CK_Dev" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="CK_Dev" type="462c0819:PsiDirectoryNode" />
-              <item name="Maya_Dev" type="462c0819:PsiDirectoryNode" />
-              <item name="Tool_Dev" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CK_Dev" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="CK_Dev" type="462c0819:PsiDirectoryNode" />
-              <item name="Maya_Dev" type="462c0819:PsiDirectoryNode" />
-              <item name="Tool_Dev" type="462c0819:PsiDirectoryNode" />
-              <item name="笔记" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CK_Dev" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="CK_Dev" type="462c0819:PsiDirectoryNode" />
-              <item name="Maya_Dev" type="462c0819:PsiDirectoryNode" />
-              <item name="Tool_Dev" type="462c0819:PsiDirectoryNode" />
-              <item name="笔记" type="462c0819:PsiDirectoryNode" />
-              <item name="实战课笔记" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
@@ -406,8 +359,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2251" y="63" width="1482" height="841" extended-state="0" />
-    <editor active="true" />
+    <frame x="2251" y="63" width="1482" height="841" extended-state="1" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4986979" visible="true" weight="0.24116424" />
       <window_info id="Structure" order="1" sideWeight="0.50130206" side_tool="true" weight="0.16260698" />
@@ -614,8 +566,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/根据场景名修改摄像机属性和帧数.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        <state relative-caret-position="336">
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
         </state>
       </provider>
     </entry>
