@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="017901ba-d111-48bc-a1d2-62df8e3e153e" name="Default Changelist" comment="" />
+    <list default="true" id="017901ba-d111-48bc-a1d2-62df8e3e153e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/CK_Dev.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CK_Dev.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Houdini_Dev/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Houdini_Dev/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/maya语法记录.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/maya语法记录.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/加载工具设置/module" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/加载工具设置/module.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STUDY/PySide笔记/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/STUDY/PySide笔记/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STUDY/os.py" beforeDir="false" afterPath="$PROJECT_DIR$/STUDY/os.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/STUDY/os.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1316">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="224">
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -34,17 +44,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Houdini_Dev/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="868">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="224">
+              <caret line="29" column="19" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/根据场景名修改摄像机属性和帧数.py">
+        <entry file="file://$PROJECT_DIR$/STUDY/PySide笔记/test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
-              <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+              <folding>
+                <element signature="e#88#94#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/maya语法记录.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#101#123#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/根据场景名修改摄像机属性和帧数.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -86,15 +123,16 @@
         <option value="$PROJECT_DIR$/STUDY/函数.py" />
         <option value="$PROJECT_DIR$/STUDY/Module.py" />
         <option value="$PROJECT_DIR$/STUDY/study.py" />
-        <option value="$PROJECT_DIR$/STUDY/os.py" />
-        <option value="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/maya语法记录.py" />
         <option value="$PROJECT_DIR$/STUDY/案例/idMatch.py" />
         <option value="$PROJECT_DIR$/STUDY/Example/idMatch.py" />
         <option value="$PROJECT_DIR$/num1.txt" />
         <option value="$PROJECT_DIR$/STUDY/Example/idMatch_Tutor.py" />
         <option value="$PROJECT_DIR$/STUDY/Example/threadTest_tutor.py" />
-        <option value="$PROJECT_DIR$/Houdini_Dev/test.py" />
         <option value="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/根据场景名修改摄像机属性和帧数.py" />
+        <option value="$PROJECT_DIR$/STUDY/os.py" />
+        <option value="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/maya语法记录.py" />
+        <option value="$PROJECT_DIR$/Houdini_Dev/test.py" />
+        <option value="$PROJECT_DIR$/STUDY/PySide笔记/test.py" />
       </list>
     </option>
   </component>
@@ -105,9 +143,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="2251" />
-    <option name="y" value="63" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1967" />
+    <option name="y" value="125" />
     <option name="width" value="1482" />
     <option name="height" value="841" />
   </component>
@@ -132,7 +170,45 @@
             <path>
               <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
               <item name="CK_Dev" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="py" type="462c0819:PsiDirectoryNode" />
+              <item name="CK_Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="Maya_Dev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CK_Dev" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="CK_Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="Maya_Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="Tool_Dev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CK_Dev" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="CK_Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="Maya_Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="Tool_Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="笔记" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CK_Dev" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="CK_Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="Maya_Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="Tool_Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="笔记" type="462c0819:PsiDirectoryNode" />
+              <item name="实战课笔记" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CK_Dev" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="CK_Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="STUDY" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CK_Dev" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="CK_Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="STUDY" type="462c0819:PsiDirectoryNode" />
+              <item name="PySide笔记" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
@@ -199,28 +275,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="函数" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="CK_Dev" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Program Files\Autodesk\Maya2018\bin\mayapy.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/STUDY/函数.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.test (1)">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="CK_Dev" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -305,6 +360,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CK_Dev" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Autodesk\Maya2018\bin\mayapy.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/STUDY/PySide笔记/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CK_Dev" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -328,10 +404,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.idMatch_Tutor" />
         <item itemvalue="Python.idMatch (1)" />
-        <item itemvalue="Python.idMatch" />
         <item itemvalue="Python.idMatch" />
       </list>
     </recent_temporary>
@@ -359,14 +435,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2251" y="63" width="1482" height="841" extended-state="1" />
+    <frame x="1967" y="125" width="1482" height="841" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4986979" visible="true" weight="0.24116424" />
       <window_info id="Structure" order="1" sideWeight="0.50130206" side_tool="true" weight="0.16260698" />
       <window_info id="Favorites" order="2" sideWeight="0.50130206" side_tool="true" weight="0.16260698" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49815497" weight="0.32897604" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4928835" visible="true" weight="0.35643566" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4928835" weight="0.35561877" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49762782" weight="0.39869282" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -374,8 +451,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49762782" weight="0.3267974" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49625668" weight="0.3278867" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.2751713" side_tool="true" weight="0.22657952" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.72482866" weight="0.22772278" />
-      <window_info active="true" anchor="bottom" id="MayaLog" order="11" sideWeight="0.4928835" visible="true" weight="0.17923187" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" sideWeight="0.72482866" visible="true" weight="0.22759601" />
+      <window_info anchor="bottom" id="MayaLog" order="11" sideWeight="0.4928835" weight="0.17872341" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -533,27 +610,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/maya语法记录.py">
+    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/根据场景名修改摄像机属性和帧数.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
-          <folding>
-            <element signature="e#101#123#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/STUDY/os.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1316">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Houdini_Dev/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="868">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="252">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -564,10 +624,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/根据场景名修改摄像机属性和帧数.py">
+    <entry file="file://$PROJECT_DIR$/STUDY/os.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/maya语法记录.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#101#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Houdini_Dev/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/STUDY/PySide笔记/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="e#88#94#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

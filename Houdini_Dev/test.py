@@ -1,10 +1,13 @@
+# encoding:utf-8
 import sys
 import random
 from PySide2 import QtCore, QtWidgets, QtGui
 
+
 class MyWidget(QtWidgets.QWidget):
     def __init__(self):
         super().__init__()
+        # super(MyWidget, self).__init__()
 
         self.hello = ["Hallo Welt", "Hei maailma", "Hola Mundo", "Привет мир"]
 
@@ -19,10 +22,10 @@ class MyWidget(QtWidgets.QWidget):
 
         self.button.clicked.connect(self.magic)
 
-
     def magic(self):
         self.text.setText(random.choice(self.hello))
-		
+
+
 if __name__ == "__main__":
     app = QtWidgets.QApplication([])
 

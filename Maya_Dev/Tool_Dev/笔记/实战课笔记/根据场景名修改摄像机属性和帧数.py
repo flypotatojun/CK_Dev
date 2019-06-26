@@ -13,7 +13,7 @@ camera_name = '%s_S%03d_E%03d' % (file_name,start_time,end_time)
 camera_list = [p_camera for p_camera in pm.listCameras(p = True) if p_camera != 'persp'] #得到新建的透视图相机名
 selection_panel = pm.getPanel(withFocus = True)
 
-'''面板无法切换bug
+'''面板无法切换bug!!!!!
 selection_camera = pm.modelPanel(selection_panel,q =True,camera = True)
 camera_pynode = pm.PyNode(selection_camera)
 camera_pynode.rename(camera_name)
@@ -27,7 +27,6 @@ render_edit_node.startFrame.set(start_time)
 render_edit_node.endFrame.set(end_time)
 pm.setAttr('defaultResolution.width',1280)
 pm.setAttr('defaultResolution.height',720)
-
 
 
 
