@@ -2,7 +2,7 @@
 import sys
 import os
 import json
-from PySide2 import QtWidgets, QtCore, QtGui, QtNetwork
+from PySide2 import QtWidgets, QtCore, QtGui
 
 
 class TestPage(QtWidgets.QWidget):
@@ -22,7 +22,7 @@ class TestPage(QtWidgets.QWidget):
 
     def init_pages(self):
         # get pages info from config file
-        config_path = "D:/CK_Dev/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/test.json"
+        config_path = r"D:/CK_Dev/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/test.json"
         if not os.path.isfile(config_path):
             raise Exception('config is not found.....')
         with open(config_path, "r") as json_file:
@@ -32,6 +32,7 @@ class TestPage(QtWidgets.QWidget):
 
         # creat page buttons
         for page_name in page_info_dict:
+            print(page_name)
             # create the button
             page_button = QtWidgets.QPushButton(page_name)
             page_button.setObjectName("%s_page_btn" % page_name)
@@ -41,6 +42,7 @@ class TestPage(QtWidgets.QWidget):
             page_widget.setObjectName("%s_page_wgt" % page_name)
             self.page_stack.addWidget(page_widget)
             for tool in page_info_dict[page_name]:
+                print(tool)
                 page_widget.addItem(QtWidgets.QListWidgetItem(tool))
             page_button.clicked.connect(self.change_page)
 
