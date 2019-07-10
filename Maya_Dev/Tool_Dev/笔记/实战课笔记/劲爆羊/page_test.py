@@ -32,7 +32,6 @@ class TestPage(QtWidgets.QWidget):
 
         # creat page buttons
         for page_name in page_info_dict:
-            print(page_name)
             # create the button
             page_button = QtWidgets.QPushButton(page_name)
             page_button.setObjectName("%s_page_btn" % page_name)
@@ -42,7 +41,6 @@ class TestPage(QtWidgets.QWidget):
             page_widget.setObjectName("%s_page_wgt" % page_name)
             self.page_stack.addWidget(page_widget)
             for tool in page_info_dict[page_name]:
-                print(tool)
                 page_widget.addItem(QtWidgets.QListWidgetItem(tool))
             page_button.clicked.connect(self.change_page)
 
