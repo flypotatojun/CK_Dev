@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="017901ba-d111-48bc-a1d2-62df8e3e153e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/CK_Dev.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CK_Dev.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/conf_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/conf_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/page_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/page_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/Tools/MadGoatToolkit.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/Tools/test_old.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/Tools/tool_a/tool_a.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/Tools/tool_a/tool_a_help.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/Tools/tool_a/tool_a_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/Tools/tool_a/tool_a_icon_hover.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/page_test_old.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/page_test_old.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/test.json" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/test.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,37 +22,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/page_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-47">
+            <state relative-caret-position="545">
               <caret line="53" column="61" selection-start-line="53" selection-start-column="61" selection-end-line="53" selection-end-column="61" />
               <folding>
                 <element signature="e#15#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/page_test_old.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="90" column="47" lean-forward="true" selection-start-line="90" selection-start-column="47" selection-end-line="90" selection-end-column="47" />
-              <folding>
-                <element signature="e#15#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
-              <folding>
-                <element signature="e#89#99#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -63,24 +39,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
               <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="1146" selection-start-line="1146" selection-end-line="1146" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -138,6 +96,7 @@
         <option value="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/test.py" />
         <option value="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/test.json" />
         <option value="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/page_test_old.py" />
+        <option value="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/Tools/ToolsBox.py" />
       </list>
     </option>
   </component>
@@ -157,6 +116,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -226,26 +186,7 @@
               <item name="CK_Dev" type="462c0819:PsiDirectoryNode" />
               <item name="Maya_Dev" type="462c0819:PsiDirectoryNode" />
               <item name="Tool_Dev" type="462c0819:PsiDirectoryNode" />
-              <item name="笔记" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CK_Dev" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="CK_Dev" type="462c0819:PsiDirectoryNode" />
-              <item name="Maya_Dev" type="462c0819:PsiDirectoryNode" />
-              <item name="Tool_Dev" type="462c0819:PsiDirectoryNode" />
-              <item name="笔记" type="462c0819:PsiDirectoryNode" />
-              <item name="实战课笔记" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CK_Dev" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="CK_Dev" type="462c0819:PsiDirectoryNode" />
-              <item name="Maya_Dev" type="462c0819:PsiDirectoryNode" />
-              <item name="Tool_Dev" type="462c0819:PsiDirectoryNode" />
-              <item name="笔记" type="462c0819:PsiDirectoryNode" />
-              <item name="实战课笔记" type="462c0819:PsiDirectoryNode" />
-              <item name="劲爆羊" type="462c0819:PsiDirectoryNode" />
+              <item name="Tools" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
@@ -264,11 +205,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CK_Dev\Maya_Dev\Tool_Dev\笔记\实战课笔记\劲爆羊\Tools" />
       <recent name="D:\CK_Dev\Maya_Dev\Tool_Dev\笔记\PySide笔记" />
       <recent name="D:\CK_Dev\Maya_Dev\Tool_Dev\笔记" />
       <recent name="D:\CK_Dev\Maya_Dev\Tool_Dev\笔记\PySide2笔记" />
       <recent name="D:\CK_Dev\Tools\QSJ" />
-      <recent name="D:\CK_Dev\Tools" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -283,7 +224,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test (2)">
+  <component name="RunManager" selected="Python.page_test_new">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="CK_Dev" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -347,6 +288,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="page_test_new" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CK_Dev" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Autodesk\Maya2018\bin\mayapy.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\CK_Dev\Maya_Dev\Tool_Dev\笔记\实战课笔记\劲爆羊\all_toolkits.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="page_test_old" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CK_Dev" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -360,27 +322,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/page_test_old.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="CK_Dev" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Program Files\Autodesk\Maya2018\bin\mayapy.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/STUDY/PySide笔记/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -412,11 +353,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test (2)" />
+        <item itemvalue="Python.page_test_new" />
         <item itemvalue="Python.page_test_old" />
+        <item itemvalue="Python.test (2)" />
         <item itemvalue="Python.page_test" />
         <item itemvalue="Python.conf_test" />
-        <item itemvalue="Python.test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -443,8 +384,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4986979" visible="true" weight="0.18344755" />
       <window_info id="Structure" order="1" sideWeight="0.50130206" side_tool="true" weight="0.16260698" />
@@ -533,7 +473,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Module.py" />
     <entry file="file://$PROJECT_DIR$/Tools/合并动画层.py" />
     <entry file="file://$PROJECT_DIR$/Tools/批量创建文件.py" />
     <entry file="file://$PROJECT_DIR$/Tools/改变渲染摄像机.py" />
@@ -681,37 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/page_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-47">
-          <caret line="53" column="61" selection-start-line="53" selection-start-column="61" selection-end-line="53" selection-end-column="61" />
-          <folding>
-            <element signature="e#15#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/test.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="1146" selection-start-line="1146" selection-end-line="1146" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
@@ -722,10 +630,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="1146" selection-start-line="1146" selection-end-line="1146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/test.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/all_toolkits.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="137" column="36" selection-start-line="137" selection-start-column="36" selection-end-line="137" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/page_test_old.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="90" column="47" lean-forward="true" selection-start-line="90" selection-start-column="47" selection-end-line="90" selection-end-column="47" />
+        <state relative-caret-position="3276">
+          <caret line="127" column="26" lean-forward="true" selection-start-line="127" selection-start-column="26" selection-end-line="127" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/Tools/ToolsBox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="24" column="83" selection-start-line="24" selection-start-column="83" selection-end-line="24" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/page_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="53" column="61" selection-start-line="53" selection-start-column="61" selection-end-line="53" selection-end-column="61" />
           <folding>
             <element signature="e#15#25#0" expanded="true" />
           </folding>
