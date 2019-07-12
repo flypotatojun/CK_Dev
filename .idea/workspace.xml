@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="017901ba-d111-48bc-a1d2-62df8e3e153e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/Tools/MadGoatToolkit.ui" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/Tools/test_old.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/Tools/tool_a/tool_a.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/Tools/tool_a/tool_a_help.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/Tools/tool_a/tool_a_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/Tools/tool_a/tool_a_icon_hover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/page_test_old.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/page_test_old.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/MadGToolButton.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/MadGToolButton.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,13 +17,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/page_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="53" column="61" selection-start-line="53" selection-start-column="61" selection-end-line="53" selection-end-column="61" />
+            <state relative-caret-position="530">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
               <folding>
                 <element signature="e#15#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/MadGToolButton.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="36" column="57" lean-forward="true" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
+              <folding>
+                <element signature="e#17#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,6 +116,8 @@
         <option value="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/test.json" />
         <option value="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/page_test_old.py" />
         <option value="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/Tools/ToolsBox.py" />
+        <option value="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/main.py" />
+        <option value="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/MadGToolButton.py" />
       </list>
     </option>
   </component>
@@ -224,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.page_test_new">
+  <component name="RunManager" selected="Python.main">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="CK_Dev" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -246,7 +267,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="conf_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CK_Dev" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -258,7 +279,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/conf_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -353,11 +374,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.page_test_new" />
         <item itemvalue="Python.page_test_old" />
         <item itemvalue="Python.test (2)" />
         <item itemvalue="Python.page_test" />
-        <item itemvalue="Python.conf_test" />
       </list>
     </recent_temporary>
   </component>
@@ -384,15 +405,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4986979" visible="true" weight="0.18344755" />
       <window_info id="Structure" order="1" sideWeight="0.50130206" side_tool="true" weight="0.16260698" />
       <window_info id="Favorites" order="2" sideWeight="0.50130206" side_tool="true" weight="0.16260698" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49815497" weight="0.32897604" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.64102566" weight="0.35511982" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49762782" visible="true" weight="0.28867102" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.64102566" visible="true" weight="0.35511982" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49762782" weight="0.28867102" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49446493" weight="0.32716927" />
@@ -473,8 +495,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Tools/合并动画层.py" />
-    <entry file="file://$PROJECT_DIR$/Tools/批量创建文件.py" />
     <entry file="file://$PROJECT_DIR$/Tools/改变渲染摄像机.py" />
     <entry file="file://$PROJECT_DIR$/Tools/笔记/语法记录.py" />
     <entry file="file://$PROJECT_DIR$/Tools/笔记/列表与字符串互转" />
@@ -674,10 +694,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/page_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="53" column="61" selection-start-line="53" selection-start-column="61" selection-end-line="53" selection-end-column="61" />
+        <state relative-caret-position="530">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
           <folding>
             <element signature="e#15#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/MadGToolButton.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="36" column="57" lean-forward="true" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
+          <folding>
+            <element signature="e#17#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
