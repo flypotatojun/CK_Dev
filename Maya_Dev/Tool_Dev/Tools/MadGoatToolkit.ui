@@ -6,57 +6,96 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>394</width>
-    <height>379</height>
+    <width>587</width>
+    <height>672</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog{
+	background-color: #00263e;
+	
+}
+
+QGroupBox{
+color: rgb(170, 255, 255);
+border:2px solid gray;
+border-radius:5px;
+margin-top:1ex;
+subcontrol-origin: margin;
+subcontrol-position: top center;
+padding: 0 3px;
+
+}</string>
+  </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
-    <widget class="QGroupBox" name="groupBox_5">
-     <property name="title">
-      <string/>
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ff359d;&quot;&gt;图片&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
-     <property name="flat">
-      <bool>true</bool>
+     <property name="scaledContents">
+      <bool>false</bool>
      </property>
-     <layout class="QVBoxLayout" name="verticalLayout_9">
-      <item>
-       <widget class="QLabel" name="label_2">
-        <property name="text">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ff359d;&quot;&gt;图片&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-        </property>
-        <property name="scaledContents">
-         <bool>false</bool>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignCenter</set>
-        </property>
-       </widget>
-      </item>
-     </layout>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
     </widget>
    </item>
    <item>
     <widget class="QSplitter" name="splitter">
+     <property name="lineWidth">
+      <number>0</number>
+     </property>
      <property name="orientation">
       <enum>Qt::Vertical</enum>
      </property>
+     <property name="handleWidth">
+      <number>2</number>
+     </property>
      <widget class="QGroupBox" name="groupBox_3">
+      <property name="styleSheet">
+       <string notr="true">QGroupBox{
+
+	color: rgb(241, 194, 83);
+}
+
+QPushButton{
+			border-radius:5px;
+            background-color: #004877;
+            color: #CFD8DC;
+            font: bold;
+}
+
+QPushButton:Hover{
+			border-radius:5px;
+            background-color: #0081bc;
+            color: #ECEFF1;
+            font: bold;
+}</string>
+      </property>
       <property name="title">
        <string/>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_6">
        <item>
-        <widget class="AllToolkit" name="AllToolkit" native="true"/>
+        <widget class="AllToolkit" name="AllToolkit" native="true">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <zorder>label_2</zorder>
+        </widget>
        </item>
       </layout>
      </widget>
      <widget class="QGroupBox" name="groupBox_4">
       <property name="title">
        <string>个人收藏</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_8">
        <item>
@@ -82,6 +121,8 @@
    <container>1</container>
   </customwidget>
  </customwidgets>
- <resources/>
+ <resources>
+  <include location="imgs.qrc"/>
+ </resources>
  <connections/>
 </ui>

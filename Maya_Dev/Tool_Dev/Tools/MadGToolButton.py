@@ -12,7 +12,7 @@ class MadGToolButton(QtWidgets.QPushButton):
         self.tool_name = tool_name
         # set Button text
         self.setText(self.text)
-        self.setFixedHeight(20)
+        self.setFixedHeight(25)
         # make a context menu
         self.setContextMenuPolicy(QtCore.Qt.ActionsContextMenu)
         self.add_context_menu_actions()

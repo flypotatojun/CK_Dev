@@ -21,18 +21,20 @@ class ToolsBox(QtWidgets.QWidget):
 
 
         # style sheet
+        # border:1px solid #131e29;
+        # border: 1px solid #00ccff;
         style_sheet = """
         QPushButton{
-            border:1px solid #0000ff;
             border-radius:5px;
-            color: #0000ff;
+            background-color: #004877;
+            color: #CFD8DC;
             font: bold;
-            vertical-align: middle
+            vertical-align: middle;
         }
         QPushButton:Hover{
-            border: 2px solid #00ccff;
-            color: #00ccff;
-            font: bold italic;
+            background-color: #0081bc;
+            color: #ECEFF1;
+            font: bold;
         }
         """
         self.setStyleSheet(style_sheet)

@@ -1,4 +1,5 @@
 @echo off
 
 cd %~dp0
-pyside2-uic -o D:\CK_Dev\Maya_Dev\Tool_Dev\Tools\MadGoatToolkit.py D:\CK_Dev\Maya_Dev\Tool_Dev\Tools\MadGoatToolkit.ui
+pyside2-uic -o MadGoatToolkit.py MadGoatToolkit.ui
+pyside2-uic -o imgs_rc.py imgs.qrc
