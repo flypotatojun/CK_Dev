@@ -60,7 +60,7 @@
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_8">
        <item>
-        <widget class="ToolsBox" name="MyFavorate" native="true"/>
+        <widget class="MyFavoriteBox" name="MyFavorate" native="true"/>
        </item>
       </layout>
      </widget>
@@ -76,9 +76,9 @@
    <container>1</container>
   </customwidget>
   <customwidget>
-   <class>ToolsBox</class>
+   <class>MyFavoriteBox</class>
    <extends>QWidget</extends>
-   <header>ToolsBox</header>
+   <header>MyFavoriteBox</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

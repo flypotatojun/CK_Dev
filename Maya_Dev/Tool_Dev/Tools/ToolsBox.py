@@ -4,13 +4,21 @@ from PySide2 import QtWidgets, QtCore, QtGui
 from MadGToolButton import MadGToolButton
 
 class ToolsBox(QtWidgets.QWidget):
-    def __init__(self, obj_name="myFavorite", tool_list=[], parent=None):
+    def __init__(self, obj_name, tool_list, parent=None):
         super(ToolsBox, self).__init__(parent)
 
+
         self.setObjectName("%s_page_wgt" % obj_name)
-        self.__tool_list = tool_list
+        self._tool_list = []
+
+
         self.main_layout = QtWidgets.QGridLayout(self)
-        self.creat_tool_buttons()
+
+
+                # init tool buttons
+        for tool_name in tool_list:
+            self.append_button(tool_name)
+
 
         # style sheet
         style_sheet = """
@@ -19,6 +27,7 @@ class ToolsBox(QtWidgets.QWidget):
             border-radius:5px;
             color: #0000ff;
             font: bold;
+            vertical-align: middle
         }
         QPushButton:Hover{
             border: 2px solid #00ccff;
@@ -28,13 +37,13 @@ class ToolsBox(QtWidgets.QWidget):
         """
         self.setStyleSheet(style_sheet)
 
-    def creat_tool_buttons(self):
-        x = y = 0
-        for tool_name in self.__tool_list:
-            tool_btn = MadGToolButton(tool_name)
-            self.main_layout.addWidget(tool_btn, x, y)
-            if y == 0:
-                y = 1
-            else:
-                y = 0
-                x += 1
+    def append_button(self, button_name):
+        count = len(self._tool_list)
+        row = count / 2
+        col = count % 2
+        button = MadGToolButton(button_name)
+        self.main_layout.addWidget(button, row, col)
+        self._tool_list.append(button_name)
+
+
+

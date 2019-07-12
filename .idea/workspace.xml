@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="017901ba-d111-48bc-a1d2-62df8e3e153e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/MadGToolButton.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/MadGToolButton.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/MadGoatToolkit.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/MadGoatToolkit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/MadGoatToolkit.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/MadGoatToolkit.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/ToolsBox.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/ToolsBox.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+            <state relative-caret-position="148">
+              <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -42,10 +44,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/MyFavoriteBox.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/ToolsBox.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+              <folding>
+                <element signature="e#18#62#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/MadGToolButton.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="36" column="57" lean-forward="true" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
+            <state relative-caret-position="540">
+              <caret line="38" column="43" lean-forward="true" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
               <folding>
                 <element signature="e#17#26#0" expanded="true" />
               </folding>
@@ -118,6 +144,8 @@
         <option value="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/Tools/ToolsBox.py" />
         <option value="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/main.py" />
         <option value="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/MadGToolButton.py" />
+        <option value="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/MyFavoriteBox.py" />
+        <option value="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/ToolsBox.py" />
       </list>
     </option>
   </component>
@@ -495,8 +523,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Tools/改变渲染摄像机.py" />
-    <entry file="file://$PROJECT_DIR$/Tools/笔记/语法记录.py" />
     <entry file="file://$PROJECT_DIR$/Tools/笔记/列表与字符串互转" />
     <entry file="file://$PROJECT_DIR$/Tools/自动打开指定目下的文件.py" />
     <entry file="file://$PROJECT_DIR$/Tools/获取渲染设置属性.py" />
@@ -704,20 +730,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/MadGToolButton.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="36" column="57" lean-forward="true" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
+        <state relative-caret-position="540">
+          <caret line="38" column="43" lean-forward="true" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
           <folding>
             <element signature="e#17#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/MyFavoriteBox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        <state relative-caret-position="148">
+          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/ToolsBox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+          <folding>
+            <element signature="e#18#62#0" expanded="true" />
           </folding>
         </state>
       </provider>

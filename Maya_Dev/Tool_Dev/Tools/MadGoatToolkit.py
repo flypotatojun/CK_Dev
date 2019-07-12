@@ -3,7 +3,7 @@
 # Form implementation generated from reading ui file 'D:\CK_Dev\Maya_Dev\Tool_Dev\Tools\MadGoatToolkit.ui',
 # licensing of 'D:\CK_Dev\Maya_Dev\Tool_Dev\Tools\MadGoatToolkit.ui' applies.
 #
-# Created: Thu Jul 11 18:43:07 2019
+# Created: Fri Jul 12 11:23:51 2019
 #      by: pyside2-uic  running on PySide2 5.12.3
 #
 # WARNING! All changes made in this file will be lost!
@@ -43,7 +43,7 @@ class Ui_MainDialog(object):
         self.groupBox_4.setObjectName("groupBox_4")
         self.verticalLayout_8 = QtWidgets.QVBoxLayout(self.groupBox_4)
         self.verticalLayout_8.setObjectName("verticalLayout_8")
-        self.MyFavorate = ToolsBox(self.groupBox_4)
+        self.MyFavorate = MyFavoriteBox(self.groupBox_4)
         self.MyFavorate.setObjectName("MyFavorate")
         self.verticalLayout_8.addWidget(self.MyFavorate)
         self.verticalLayout.addWidget(self.splitter)
@@ -56,6 +56,5 @@ class Ui_MainDialog(object):
         self.label_2.setText(QtWidgets.QApplication.translate("MainDialog", "<html><head/><body><p align=\"center\"><span style=\" font-size:14pt; font-weight:600; color:#ff359d;\">图片</span></p></body></html>", None, -1))
         self.groupBox_4.setTitle(QtWidgets.QApplication.translate("MainDialog", "个人收藏", None, -1))
 
-from ToolsBox import ToolsBox
 from AllToolkit import AllToolkit
-
+from MyFavoriteBox import MyFavoriteBox
