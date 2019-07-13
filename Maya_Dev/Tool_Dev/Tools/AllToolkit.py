@@ -23,7 +23,7 @@ class AllToolkit(QtWidgets.QWidget):
 
     def init_pages(self):
         # get pages info from config file
-        config_path = r"D:/CK_Dev/Maya_Dev/Tool_Dev/Tools/ToolList.json"
+        config_path = r"Maya_Dev/Tool_Dev/Tools/ToolList.json"
         if not os.path.isfile(config_path):
             raise Exception('config is not found.....')
         with open(config_path, "r") as json_file:

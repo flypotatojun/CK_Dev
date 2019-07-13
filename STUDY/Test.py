@@ -10,7 +10,5 @@ desti.remove('cam:ep01sc03cam04')
 print(desti)
 
 
-
 import maya.cmds as mc
-mc.sphere()
-print"hello"
+mc.polyCube("name")

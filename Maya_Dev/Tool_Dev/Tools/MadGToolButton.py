@@ -33,9 +33,9 @@ class MadGToolButton(QtWidgets.QPushButton):
         help_file_path = os.path.join(self.tool_dir, "%s_help.md" % self.tool_name)
         if not os.path.isfile(help_file_path):
             return "", ""
-        with open(help_file_path) as help_file:
-            text = help_file.readline()
-            about = help_file.read()
+        with open(help_file_path,"rb") as help_file:
+            text = help_file.readline().decode("gbk")
+            about = help_file.read().decode('gbk')
         return text, about
 
 
@@ -72,7 +72,7 @@ class MadGToolButton(QtWidgets.QPushButton):
             mime_data.setText("ToolButton_%s" % self.tool_name)
             drag = QtGui.QDrag(self)
             drag.setMimeData(mime_data)
-            pixmap = QtGui.QPixmap("D:/xx.png").scaledToHeight(50)
+            pixmap = QtGui.QPixmap("Maya_Dev/Tool_Dev/Tools/images/BG.jpeg").scaledToHeight(50)
             drag.setPixmap(pixmap)
             drag.exec_()
             event.accept()
