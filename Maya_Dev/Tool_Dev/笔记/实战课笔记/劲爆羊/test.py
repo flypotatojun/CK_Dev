@@ -1,19 +1,16 @@
-<<<<<<< HEAD
-def print_tree(node, indent=0):
-    for child in node.children():
-        print 
-        
-=======
-# encoding:utf-8
+# -*- coding: utf-8 -*-
+# .@FileName:test
+# .@Date    :2019-07-10:16:19
+# .@Author  :CK
+
 import sys
 import random
 from PySide2 import QtCore, QtWidgets, QtGui
-
+print(sys.version)
 
 class MyWidget(QtWidgets.QWidget):
     def __init__(self):
         super().__init__()
-        # super(MyWidget, self).__init__()
 
         self.hello = ["Hallo Welt", "Hei maailma", "Hola Mundo", "Привет мир"]
 
@@ -40,4 +37,3 @@ if __name__ == "__main__":
     widget.show()
 
     sys.exit(app.exec_())
->>>>>>> WIN
