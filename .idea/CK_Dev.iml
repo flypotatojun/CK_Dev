@@ -8,10 +8,6 @@
       <excludeFolder url="file://$MODULE_DIR$/Houdini_Dev/py" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
-    <content url="file://C:/Program Files/Autodesk/Maya2018/devkit/devkit/other/pymel/extras/completion/py">
-      <sourceFolder url="file://C:/Program Files/Autodesk/Maya2018/devkit/devkit/other/pymel/extras/completion/py" isTestSource="false" />
-      <excludeFolder url="file://C:/Program Files/Autodesk/Maya2018/devkit/devkit/other/pymel/extras/completion/py/venv" />
-    </content>
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

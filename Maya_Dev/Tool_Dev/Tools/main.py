@@ -19,3 +19,6 @@ if __name__ == "__main__":
     widget = MadGoatTookkitMain()
     widget.show()
     app.exec_()
+
+
+
