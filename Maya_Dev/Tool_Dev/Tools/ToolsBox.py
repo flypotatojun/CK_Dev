@@ -15,7 +15,7 @@ class ToolsBox(QtWidgets.QWidget):
         self.main_layout = QtWidgets.QGridLayout(self)
 
 
-                # init tool buttons
+        # init tool buttons
         for tool_name in tool_list:
             self.append_button(tool_name)
 
@@ -41,11 +41,23 @@ class ToolsBox(QtWidgets.QWidget):
 
     def append_button(self, button_name):
         count = len(self._tool_list)
-        row = count / 2
-        col = count % 2
+        # row = count / 2
+        # col = count % 2
+        row, col = self.id_to_pos(count)
         button = MadGToolButton(button_name)
+        button.deleteSignal.connect(self.remove_button)
         self.main_layout.addWidget(button, row, col)
         self._tool_list.append(button_name)
 
+    def remove_button(self, button):
+        id = self._tool_list.index(button)
+        self.main_layout.takeAt(id)
+        self._tool_list.pop(id)
+
+
+    def id_to_pos(self, id):
+        row = id / 2
+        col = id % 2
+        return row, col
 
 

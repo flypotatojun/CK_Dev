@@ -23,7 +23,8 @@ class AllToolkit(QtWidgets.QWidget):
 
     def init_pages(self):
         # get pages info from config file
-        config_path = r"D:/CK_Dev/Maya_Dev/Tool_Dev/Tools/ToolList.json"
+
+        config_path = os.path.join(os.path.dirname(__file__), "ToolList.json")
         if not os.path.isfile(config_path):
             raise Exception('config is not found.....')
         with open(config_path, "r") as json_file:
@@ -40,6 +41,7 @@ class AllToolkit(QtWidgets.QWidget):
             # create the button
             page_button = QtWidgets.QPushButton(page_name)
             page_button.setObjectName("%s_page_btn" % page_name)
+            page_button.setFixedHeight(20)
             self.button_layout.addWidget(page_button)
 
             # create the widget

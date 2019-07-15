@@ -12,9 +12,13 @@ class MadGoatTookkitMain(QtWidgets.QDialog, Ui_MainDialog):
         super(MadGoatTookkitMain, self).__init__(parent)
         self.setupUi(self)
 
+    def closeEvent(self, event):
+        self.MyFavorate.saveFavorite()
+
+
 
 if __name__ == "__main__":
-    app = QtWidgets.QApplication(sys.argv)
+    app = QtWidgets.QApplication([])
     # widget = loadUi(ui_path)
     widget = MadGoatTookkitMain()
     widget.show()

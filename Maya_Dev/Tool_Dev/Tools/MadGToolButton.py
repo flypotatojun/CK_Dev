@@ -6,6 +6,7 @@ from PySide2 import QtWidgets, QtCore, QtGui
 
 
 class MadGToolButton(QtWidgets.QPushButton):
+    deleteSignal = QtCore.Signal(str)
     def __init__(self, tool_name, parent=None):
         super(MadGToolButton, self).__init__(parent)
 
@@ -21,11 +22,18 @@ class MadGToolButton(QtWidgets.QPushButton):
 
 
     def add_context_menu_actions(self):
-        about = QtWidgets.QAction(self)
-        about.setText("about")
-        self.addAction(about)
-        about.triggered.connect(self.show_about)
-        self.addAction(about)
+        # add about action
+        about_action = QtWidgets.QAction(self)
+        about_action.setText("about")
+        about_action.triggered.connect(self.show_about)
+        self.addAction(about_action)
+
+        # add delete action
+        delete_action = QtWidgets.QAction(self)
+        delete_action.setText("delete")
+        delete_action.triggered.connect(self.delete_button)
+        self.addAction(delete_action)
+
 
     def get_about_info(self):
         if not self.tool_dir:
@@ -46,6 +54,11 @@ class MadGToolButton(QtWidgets.QPushButton):
         title = "about %s" % self.tool_name
         QtWidgets.QMessageBox.information(None, title, about, QtWidgets.QMessageBox.Ok)
 
+    def delete_button(self):
+        self.deleteLater()
+        self.deleteSignal.emit(self.tool_name)
+
+
     @property
     def text(self):
         text, _ = self.get_about_info()
@@ -61,7 +74,7 @@ class MadGToolButton(QtWidgets.QPushButton):
         current_dir = os.path.dirname(__file__)
         tool_dir = os.path.join(current_dir, self.tool_name)
         if os.path.isdir(tool_dir):
-            return os.path.abspath(tool_dir)
+            return os.path.dirname(tool_dir)
         return None
 
 
@@ -72,7 +85,7 @@ class MadGToolButton(QtWidgets.QPushButton):
             mime_data.setText("ToolButton_%s" % self.tool_name)
             drag = QtGui.QDrag(self)
             drag.setMimeData(mime_data)
-            pixmap = QtGui.QPixmap("D:/xx.png").scaledToHeight(50)
+            pixmap = QtGui.QPixmap("Maya_Dev/Tool_Dev/Tools/images/BG.jpeg").scaledToHeight(50)
             drag.setPixmap(pixmap)
             drag.exec_()
             event.accept()
