@@ -2,11 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="017901ba-d111-48bc-a1d2-62df8e3e153e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/AllToolkit.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/AllToolkit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/MadGToolButton.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/MadGToolButton.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/MyFavoriteBox.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/MyFavoriteBox.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/ToolsBox.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/ToolsBox.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/AllToolkit.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/AllToolkit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/MadGToolButton.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/MadGToolButton.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/MadGoatToolkit.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/MadGoatToolkit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/MadGoatToolkit.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/MadGoatToolkit.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/MyFavorite.json" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/MyFavorite.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/MyFavoriteBox.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/MyFavoriteBox.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/ToolList.json" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/ToolList.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/ToolsBox.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/ToolsBox.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/images/BG.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/images/BG.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/images/BG2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/images/BG2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/imgs.qrc" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/imgs.qrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/imgs_rc.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/imgs_rc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/make_ui_2_py.bat" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/make_ui_2_py.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/tool_a/tool_a.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/tool_a/tool_a.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/tool_a/tool_a_help.md" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/tool_a/tool_a_help.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/tool_a/tool_a_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/tool_a/tool_a_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/tool_a/tool_a_icon_hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/tool_a/tool_a_icon_hover.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/批量创建文件.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/批量创建文件.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STUDY/PySide笔记/PySide笔记/PySide笔记.py" beforeDir="false" afterPath="$PROJECT_DIR$/STUDY/PySide笔记/PySide笔记/PySide笔记.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STUDY/PySide笔记/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/STUDY/PySide笔记/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STUDY/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/STUDY/Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STUDY/os.py" beforeDir="false" afterPath="$PROJECT_DIR$/STUDY/os.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,69 +40,94 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/main.py">
+        <entry file="file://$PROJECT_DIR$/CNCGToolKit/maya/scripts/userSetup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="196">
+              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#42#52#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/AllToolkit.py">
+        <entry file="file://$PROJECT_DIR$/CNCGToolKit/cgtkLibs/cgtk_log.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-664">
-              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+            <state relative-caret-position="446">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/STUDY/study.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="835">
+              <caret line="125" column="21" selection-start-line="125" selection-start-column="21" selection-end-line="125" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/STUDY/re.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CNCGToolKit/cgtkLibs/cgtk_os/win_modules/scan_installed_apps.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CNCGToolKit/cgtkLibs/cgtk_os/start.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#44#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CNCGToolKit/cgtkLibs/cgtk_config/studio_config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2">
+              <folding>
+                <element signature="e#14#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CNCGToolKit/cgtkLibs/cgtk_config/cgtk_yaml.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#42#51#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/MyFavoriteBox.py">
+        <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/批量创建文件.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1268">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-              <folding>
-                <element signature="e#1#10#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="446">
+              <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/ToolsBox.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-608">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#18#62#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/MadGToolButton.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1960">
-              <caret line="89" column="24" lean-forward="true" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
-              <folding>
-                <element signature="e#17#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/test.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/CNCGToolKit/maya/scripts/cgtk_shelf/get_shelf_layout.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -94,7 +139,13 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.replace(&quot;\\&quot;,&quot;/&quot;)</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -128,7 +179,6 @@
         <option value="$PROJECT_DIR$/STUDY/Example/idMatch_Tutor.py" />
         <option value="$PROJECT_DIR$/STUDY/Example/threadTest_tutor.py" />
         <option value="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/根据场景名修改摄像机属性和帧数.py" />
-        <option value="$PROJECT_DIR$/STUDY/os.py" />
         <option value="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/maya语法记录.py" />
         <option value="$PROJECT_DIR$/Houdini_Dev/test.py" />
         <option value="$PROJECT_DIR$/STUDY/PySide笔记/test.py" />
@@ -144,6 +194,8 @@
         <option value="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/AllToolkit.py" />
         <option value="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/MyFavoriteBox.py" />
         <option value="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/main.py" />
+        <option value="$PROJECT_DIR$/STUDY/os.py" />
+        <option value="$PROJECT_DIR$/Maya_Dev/Tool_Dev/批量创建文件.py" />
       </list>
     </option>
   </component>
@@ -212,12 +264,6 @@
               <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
               <item name="CK_Dev" type="47feb1d3:ProjectViewModuleNode" />
               <item name="CK_Dev" type="462c0819:PsiDirectoryNode" />
-              <item name=".vscode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CK_Dev" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="CK_Dev" type="462c0819:PsiDirectoryNode" />
               <item name="Maya_Dev" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -226,23 +272,6 @@
               <item name="CK_Dev" type="462c0819:PsiDirectoryNode" />
               <item name="Maya_Dev" type="462c0819:PsiDirectoryNode" />
               <item name="Tool_Dev" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CK_Dev" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="CK_Dev" type="462c0819:PsiDirectoryNode" />
-              <item name="Maya_Dev" type="462c0819:PsiDirectoryNode" />
-              <item name="Tool_Dev" type="462c0819:PsiDirectoryNode" />
-              <item name="Tools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CK_Dev" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="CK_Dev" type="462c0819:PsiDirectoryNode" />
-              <item name="Maya_Dev" type="462c0819:PsiDirectoryNode" />
-              <item name="Tool_Dev" type="462c0819:PsiDirectoryNode" />
-              <item name="Tools" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
@@ -441,8 +470,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4986979" visible="true" weight="0.1391671" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4986979" visible="true" weight="0.1391671" />
       <window_info id="Structure" order="1" sideWeight="0.50130206" side_tool="true" weight="0.16260698" />
       <window_info id="Favorites" order="2" sideWeight="0.50130206" side_tool="true" weight="0.16260698" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -452,7 +482,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49446493" weight="0.32716927" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49762782" visible="true" weight="0.3267974" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49762782" weight="0.3267974" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49625668" weight="0.3267974" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.35897437" side_tool="true" weight="0.35561877" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.72482866" weight="0.22759601" />
@@ -529,36 +559,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Tools/自动打开指定目下的文件.py" />
-    <entry file="file://$PROJECT_DIR$/Tools/获取渲染设置属性.py" />
-    <entry file="file://$PROJECT_DIR$/study.py" />
-    <entry file="file://$PROJECT_DIR$/Test.py" />
-    <entry file="file://$PROJECT_DIR$/函数.py" />
-    <entry file="file://$PROJECT_DIR$/Tools/QSJ/MergeAnimLayer.py" />
-    <entry file="file://$PROJECT_DIR$/Tools/QSJ/导入相机.py" />
-    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tools/改变渲染摄像机.py" />
-    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/te.py" />
-    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/tet.py" />
-    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/PySide2笔记/PySide2笔记1.py" />
-    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/PySide笔记/PySide笔记.py" />
-    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/批量创建文件.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/PySide2笔记/PySide2笔记2.py" />
-    <entry file="file://$PROJECT_DIR$/STUDY/函数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="57" column="18" lean-forward="true" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/test.py" />
     <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/列表与字符串互转" />
     <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/语法记录.py" />
@@ -577,41 +577,6 @@
     <entry file="file://$PROJECT_DIR$/STUDY/案例/idMatch.py" />
     <entry file="file://$PROJECT_DIR$/num2.txt" />
     <entry file="file://$PROJECT_DIR$/num1.txt" />
-    <entry file="file://$PROJECT_DIR$/STUDY/Module.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/STUDY/study.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3500">
-          <caret line="125" column="21" selection-start-line="125" selection-start-column="21" selection-end-line="125" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/STUDY/Example/idMatch_Tutor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/STUDY/Example/idMatch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/STUDY/re.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/maya语法记录.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -640,20 +605,6 @@
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/STUDY/Example/threadTest_tutor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/STUDY/os.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -721,7 +672,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/ToolsBox.py">
+    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/ToolsBox.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-608">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
@@ -731,7 +682,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/MadGToolButton.py">
+    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/MadGToolButton.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1960">
           <caret line="89" column="24" lean-forward="true" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
@@ -741,14 +692,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/AllToolkit.py">
+    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/AllToolkit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-664">
           <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/main.py">
+    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
@@ -758,13 +709,151 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/MyFavoriteBox.py">
+    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/MyFavoriteBox.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1268">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="428">
+          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
           <folding>
             <element signature="e#1#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNCGToolKit/cgtkLibs/cgtk_os/copy_file.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNCGToolKit/cgtkLibs/cgtk_config/get_config_path.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNCGToolKit/cgtkLibs/cgtk_strack/CgtkVersion.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNCGToolKit/configs/studio.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNCGToolKit/houdini/shelf/fitcam.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1206" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNCGToolKit/maya/scripts/cgtk_shelf/load_sheves.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNCGToolKit/maya/scripts/cgtk_shelf/new_shelf_btn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2270">
+          <folding>
+            <element signature="e#43#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNCGToolKit/templates/CNCGToolKit_TEMP.mod">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/STUDY/Module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/STUDY/Example/threadTest_tutor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/STUDY/Example/idMatch_Tutor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/STUDY/Example/idMatch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/STUDY/os.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNCGToolKit/maya/scripts/cgtk_shelf/get_shelf_layout.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNCGToolKit/maya/scripts/userSetup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding>
+            <element signature="e#42#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNCGToolKit/cgtkLibs/cgtk_log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/STUDY/study.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="835">
+          <caret line="125" column="21" selection-start-line="125" selection-start-column="21" selection-end-line="125" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/STUDY/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNCGToolKit/cgtkLibs/cgtk_os/win_modules/scan_installed_apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNCGToolKit/cgtkLibs/cgtk_os/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#44#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNCGToolKit/cgtkLibs/cgtk_config/studio_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <folding>
+            <element signature="e#14#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNCGToolKit/cgtkLibs/cgtk_config/cgtk_yaml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#42#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/批量创建文件.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
         </state>
       </provider>
     </entry>

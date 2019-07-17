@@ -70,3 +70,5 @@ if __name__ == "__main__":
     wgt = AllToolkit()
     wgt.show()
     app.exec_()
+
+

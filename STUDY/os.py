@@ -19,6 +19,7 @@ os.remove('text.txt')  # 删除文件
 os.system('notepad')  # 系统直接调用CMD打开文本编辑器，返回值0表示正常
 os.startfile('路径')  # 打开文件
 os.path.isdir('dir')  # 判断dir是不是路径
+os.environ("MAYA_MODULE_PATH")
 '''
 列出当前目录下所有目录：
 [x for x in os.listdir('.') if os.path.isdir(x)]

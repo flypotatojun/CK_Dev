@@ -1,16 +1,3 @@
-#import re
-#import difflib
-desti = 'cam:ep01sc03cam04s424e4255'.split()
+from PySide2 import QtWidgets, QtCore, QtGui
 
-#pattern = re.compile(r'\d')
-#m = pattern.search(desti)
-#m = pattern.findall(desti)
-
-desti.remove('cam:ep01sc03cam04')
-print(desti)
-
-
-
-import maya.cmds as mc
-mc.sphere()
-print"hello"
+class 

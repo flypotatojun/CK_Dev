@@ -9,9 +9,8 @@ from PySide2 import QtCore, QtWidgets, QtGui
 print(sys.version)
 
 class MyWidget(QtWidgets.QWidget):
-    def __init__(self):
-        super().__init__()
-
+    def __init__(self, parent = None):
+        super(MyWidget, self).__init__(parent)
         self.hello = ["Hallo Welt", "Hei maailma", "Hola Mundo", "Привет мир"]
 
         self.button = QtWidgets.QPushButton("Click me!")
