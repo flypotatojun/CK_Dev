@@ -2,31 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="017901ba-d111-48bc-a1d2-62df8e3e153e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Collections/Document/maya/2018/scripts/abc_export.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/AllToolkit.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/AllToolkit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/MadGToolButton.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/MadGToolButton.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/MadGoatToolkit.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/MadGoatToolkit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/MadGoatToolkit.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/MadGoatToolkit.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/MyFavorite.json" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/MyFavorite.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/MyFavoriteBox.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/MyFavoriteBox.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/ToolList.json" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/ToolList.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/ToolsBox.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/ToolsBox.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/images/BG.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/images/BG.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/images/BG2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/images/BG2.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/imgs.qrc" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/imgs.qrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/imgs_rc.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/imgs_rc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/make_ui_2_py.bat" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/make_ui_2_py.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/tool_a/tool_a.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/tool_a/tool_a.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/tool_a/tool_a_help.md" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/tool_a/tool_a_help.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/tool_a/tool_a_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/tool_a/tool_a_icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/tool_a/tool_a_icon_hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/MadGoat_Tools/tool_a/tool_a_icon_hover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/批量创建文件.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/批量创建文件.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/STUDY/PySide笔记/PySide笔记/PySide笔记.py" beforeDir="false" afterPath="$PROJECT_DIR$/STUDY/PySide笔记/PySide笔记/PySide笔记.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/STUDY/PySide笔记/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/STUDY/PySide笔记/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/STUDY/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/STUDY/Test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/STUDY/os.py" beforeDir="false" afterPath="$PROJECT_DIR$/STUDY/os.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Replace_Texture_Path/Tool_lookdev.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Replace_Texture_Path/tetsatsa s" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,94 +20,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CNCGToolKit/maya/scripts/userSetup.py">
+        <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Collections/Document/maya/2018/scripts/abc_export.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-              <folding>
-                <element signature="e#42#52#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="842">
+              <caret line="62" column="34" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CNCGToolKit/cgtkLibs/cgtk_log.py">
+        <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Collections/Document/maya/2018/scripts/ABCMaterialsTool/使用方法.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/STUDY/study.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="835">
-              <caret line="125" column="21" selection-start-line="125" selection-start-column="21" selection-end-line="125" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/STUDY/re.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CNCGToolKit/cgtkLibs/cgtk_os/win_modules/scan_installed_apps.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CNCGToolKit/cgtkLibs/cgtk_os/start.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#44#53#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CNCGToolKit/cgtkLibs/cgtk_config/studio_config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2">
-              <folding>
-                <element signature="e#14#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CNCGToolKit/cgtkLibs/cgtk_config/cgtk_yaml.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#42#51#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="140">
+              <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/批量创建文件.py">
+        <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Collections/Document/maya/2018/scripts/ABCMaterialsTool/decomplie.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+            <state relative-caret-position="234">
+              <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+              <folding>
+                <element signature="e#88#97#0" expanded="true" />
+              </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CNCGToolKit/maya/scripts/cgtk_shelf/get_shelf_layout.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -196,6 +115,10 @@
         <option value="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/main.py" />
         <option value="$PROJECT_DIR$/STUDY/os.py" />
         <option value="$PROJECT_DIR$/Maya_Dev/Tool_Dev/批量创建文件.py" />
+        <option value="$PROJECT_DIR$/Maya_Dev/Tool_Collections/Document/maya/2018/scripts/abc_export.py" />
+        <option value="$PROJECT_DIR$/Maya_Dev/Tool_Collections/Document/maya/2018/scripts/ABCMaterialsTool/使用方法.txt" />
+        <option value="$PROJECT_DIR$/Maya_Dev/Tool_Collections/Document/maya/2018/scripts/ABCMaterialsTool/反编译.py" />
+        <option value="$PROJECT_DIR$/Maya_Dev/Tool_Collections/Document/maya/2018/scripts/ABCMaterialsTool/decomplie.py" />
       </list>
     </option>
   </component>
@@ -206,9 +129,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1944" />
-    <option name="y" value="50" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="125" />
+    <option name="y" value="129" />
     <option name="width" value="1482" />
     <option name="height" value="841" />
   </component>
@@ -271,7 +194,72 @@
               <item name="CK_Dev" type="47feb1d3:ProjectViewModuleNode" />
               <item name="CK_Dev" type="462c0819:PsiDirectoryNode" />
               <item name="Maya_Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="Tool_Collections" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CK_Dev" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="CK_Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="Maya_Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="Tool_Collections" type="462c0819:PsiDirectoryNode" />
+              <item name="Document" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CK_Dev" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="CK_Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="Maya_Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="Tool_Collections" type="462c0819:PsiDirectoryNode" />
+              <item name="Document" type="462c0819:PsiDirectoryNode" />
+              <item name="maya" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CK_Dev" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="CK_Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="Maya_Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="Tool_Collections" type="462c0819:PsiDirectoryNode" />
+              <item name="Document" type="462c0819:PsiDirectoryNode" />
+              <item name="maya" type="462c0819:PsiDirectoryNode" />
+              <item name="2018" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CK_Dev" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="CK_Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="Maya_Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="Tool_Collections" type="462c0819:PsiDirectoryNode" />
+              <item name="Document" type="462c0819:PsiDirectoryNode" />
+              <item name="maya" type="462c0819:PsiDirectoryNode" />
+              <item name="2018" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CK_Dev" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="CK_Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="Maya_Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="Tool_Collections" type="462c0819:PsiDirectoryNode" />
+              <item name="Document" type="462c0819:PsiDirectoryNode" />
+              <item name="maya" type="462c0819:PsiDirectoryNode" />
+              <item name="2018" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="ABCMaterialsTool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CK_Dev" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="CK_Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="Maya_Dev" type="462c0819:PsiDirectoryNode" />
               <item name="Tool_Dev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CK_Dev" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="CK_Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="Maya_Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="Tool_Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="pyLibs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CK_Dev" type="b2602c69:ProjectViewProjectNode" />
@@ -309,7 +297,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.decomplie">
+    <configuration name="反编译" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CK_Dev" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Autodesk\Maya2018\bin\mayapy.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Maya_Dev/Tool_Collections/Document/maya/2018/scripts/ABCMaterialsTool/反编译.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="CK_Dev" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -331,6 +340,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="decomplie" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CK_Dev" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Autodesk\Maya2018\bin\mayapy.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Maya_Dev/Tool_Collections/Document/maya/2018/scripts/ABCMaterialsTool/decomplie.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CK_Dev" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -344,27 +374,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Maya_Dev/Tool_Dev/Tools/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="page_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="CK_Dev" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Program Files\Autodesk\Maya2018\bin\mayapy.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/page_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -415,34 +424,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="CK_Dev" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Program Files\Autodesk\Maya2018\bin\mayapy.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/实战课笔记/劲爆羊/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.decomplie" />
+        <item itemvalue="Python.反编译" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.page_test_new" />
         <item itemvalue="Python.page_test_old" />
-        <item itemvalue="Python.test (2)" />
-        <item itemvalue="Python.page_test" />
       </list>
     </recent_temporary>
   </component>
@@ -469,15 +457,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="125" y="129" width="1482" height="841" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4986979" visible="true" weight="0.1391671" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4986979" visible="true" weight="0.3042273" />
       <window_info id="Structure" order="1" sideWeight="0.50130206" side_tool="true" weight="0.16260698" />
       <window_info id="Favorites" order="2" sideWeight="0.50130206" side_tool="true" weight="0.16260698" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49815497" weight="0.32897604" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.64102566" weight="0.35511982" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.64102566" visible="true" weight="0.3541963" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49762782" weight="0.28867102" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -485,8 +473,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49762782" weight="0.3267974" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49625668" weight="0.3267974" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.35897437" side_tool="true" weight="0.35561877" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.72482866" weight="0.22759601" />
-      <window_info anchor="bottom" id="MayaLog" order="11" sideWeight="0.4928835" weight="0.17872341" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.72482866" weight="0.22617353" />
+      <window_info anchor="bottom" id="MayaLog" order="11" sideWeight="0.4928835" weight="0.23328592" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -559,20 +547,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/test.py" />
-    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/列表与字符串互转" />
-    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/笔记/语法记录.py" />
-    <entry file="file://$PROJECT_DIR$/STUDY/Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/STUDY/案例/num1.txt" />
     <entry file="file://$PROJECT_DIR$/STUDY/案例/idMatch.py" />
     <entry file="file://$PROJECT_DIR$/num2.txt" />
@@ -786,12 +760,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNCGToolKit/maya/scripts/cgtk_shelf/get_shelf_layout.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/CNCGToolKit/maya/scripts/userSetup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
+        <state relative-caret-position="56">
           <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
           <folding>
             <element signature="e#42#52#0" expanded="true" />
@@ -801,14 +772,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CNCGToolKit/cgtkLibs/cgtk_log.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="588">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/STUDY/study.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="835">
+        <state relative-caret-position="3500">
           <caret line="125" column="21" selection-start-line="125" selection-start-column="21" selection-end-line="125" selection-end-column="21" />
         </state>
       </provider>
@@ -834,7 +805,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CNCGToolKit/cgtkLibs/cgtk_config/studio_config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
+        <state>
           <folding>
             <element signature="e#14#23#0" expanded="true" />
           </folding>
@@ -850,10 +821,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CNCGToolKit/maya/scripts/cgtk_shelf/get_shelf_layout.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Dev/批量创建文件.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="446">
-          <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Collections/Document/maya/2018/scripts/abc_export.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="842">
+          <caret line="62" column="34" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Collections/Document/maya/2018/scripts/ABCMaterialsTool/反编译.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Collections/Document/maya/2018/scripts/ABCMaterialsTool/使用方法.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Collections/Document/maya/2018/scripts/ABCMaterialsTool/ABCMaterialsTool.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Maya_Dev/Tool_Collections/Document/maya/2018/scripts/ABCMaterialsTool/decomplie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+          <folding>
+            <element signature="e#88#97#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
