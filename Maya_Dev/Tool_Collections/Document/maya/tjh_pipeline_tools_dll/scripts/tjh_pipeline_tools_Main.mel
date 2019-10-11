@@ -1,0 +1,5 @@
+//load main tjh_tools_pipeline.dll
+global proc tjh_pipeline_tools_Main()
+{
+	tjh_pipeline_tools_dll_load "tjh_pipeline_tools";
+}

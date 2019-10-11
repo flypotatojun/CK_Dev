@@ -1,0 +1,145 @@
+//coded by tiancg in 2016
+//maya module setup tools
+//usage:
+//1.copy this mel to your mudole dir.and modify the $moduleName & $version for proc.
+//2.add the main proc codes in the scripts/userSetup.mel.this mel will be copied to user maya/script dir and autorun every maya restart.
+
+proc string tjh_whatIs(string $mel)
+{
+	string $path = ` whatIs $mel `;
+	string $temp1[];
+ 	$num = `tokenize $path ":" $temp1`;
+	$path = strip ($temp1[1]+":"+$temp1[2]);
+
+	string $temp2[];
+ 	$num = `tokenize $path "/" $temp2`;
+	$path = $temp2[0];
+
+	for ( $i = 1; $i<( $num-1); $i++ )
+	{
+		$path = $path + "/" + $temp2[$i];		
+	}
+return	$path;	
+}
+
+
+global proc tjh_module_Setup(string $moduleName, //main UI proc name.
+				string $version	)
+{ 
+
+	if (!`about -ntOS`)
+	error ("tjh_module_Setup is only available on the Windows operating system.");
+
+	string $instLog = "***  Installation Started  ***\r\n";
+	$instLog += "Title: " + "tjh_module_Setup" + "\r\n";
+
+	// get source path
+	string $srcPath =` tjh_whatIs "tjh_module_Setup"`;	
+	//int $size = size($srcPath) ;
+	//$srcPath = `substring $srcPath 25 $size`;
+	//$srcPath = dirname( $srcPath );
+
+
+
+	$srcPath = toNativePath( $srcPath );
+	//print $srcPath;
+	
+	//write the path of module in file
+	string $moduleFilePath = "";
+	int    $fileDesId=`fopen ($srcPath+"\\modules\\"+$moduleName+$version+".module") "w"`;
+
+	
+	//==========嵌入模块安装  开始===========
+
+	//请将内置入被综合模块的 其他模块目录添加到本部分。从而综合所有启动模块。
+
+	//安装tjh_modules1.0模块
+	       $moduleFilePath += "+ "+$moduleName+$version+" "+$version+" "+$srcPath+"\n";
+	       
+	       
+	fprint $fileDesId $moduleFilePath;
+	fclose $fileDesId;
+
+	// get destination path
+	string $dstScriptPath = toNativePath(` internalVar -userAppDir `);
+	sysFile -makeDir ($dstScriptPath+"\\modules"); 
+	sysFile -makeDir ($dstScriptPath + "\\scripts\\"); 
+	sysFile -copy ($dstScriptPath+"\\modules\\"+$moduleName+$version+".module") ($srcPath+"\\modules\\"+$moduleName+$version+".module");
+
+
+	//==========嵌入模块安装  结束===========
+
+	
+	string $PLUG_IN_path = "";	 
+	$PLUG_IN_path =` getenv  "MAYA_PLUG_IN_PATH" `;	 
+	$PLUG_IN_path +=";";	 
+	$PLUG_IN_path += $srcPath+";";
+	$PLUG_IN_path += $srcPath+"/scripts;";		 
+	putenv "MAYA_PLUG_IN_PATH" $PLUG_IN_path ;	 
+	
+	string $scripts_path = "";	 
+	$scripts_path =` getenv  "MAYA_SCRIPT_PATH" `;	 
+	$scripts_path +=";";	 
+	$scripts_path += $srcPath+";";
+	$scripts_path += $srcPath+"/scripts;";		
+	putenv "MAYA_SCRIPT_PATH" $scripts_path ;
+	
+	
+	python("import sys,os");	 
+	python("sys.path.append(\""+$srcPath+"\")");
+	
+	string $mayaVer=`about -v`;	
+	string $ver[];	
+	int $number=`tokenize $mayaVer "." $ver`;	
+	string $plug_ins="linkDll_"+$ver[0]+".mll";	
+	if(!` pluginInfo -query -l $plug_ins `)loadPlugin -qt ($srcPath+"/plug-ins/"+$plug_ins);
+	
+
+	/*
+	string $dstScriptPath = `internalVar -userAppDir` + "scripts/"; 
+	sysFile -copy ($dstScriptPath+"tjh_pipeline_tools.dll") ($srcPath+"/plug-ins/"+"tjh_pipeline_tools.dll"); 
+	linkDll ($dstScriptPath+"tjh_pipeline_tools.dll");
+	tjh_pipeline_tools;
+	*/
+
+
+	//rehash; 		
+	
+	//print ("\nsource \""+$mainUI_srcPath +"/scripts/"+"tjh_pipeline_tools.mel" );
+	//eval("source \""+$mainUI_srcPath +"/scripts/"+"tjh_pipeline_tools.mel \";" ); 	
+
+	
+
+
+	if (`windowPref -exists tjh_modules_window`)
+		    windowPref -remove tjh_modules_window;     
+
+			  
+			  if (`window -exists tjh_modules_window`)
+			  deleteUI tjh_modules_window;
+
+
+	window -w 260-h 100  tjh_modules_window;
+	columnLayout -columnAlign "center";						
+			text     -al "center" -l " _____________________________________________________________________";
+			text     -al "center" -l "  Setup successful! find the main menu TJH Pipeline Tools !";
+			//text     -al "center" -l "           安装成功";
+			text     -al "center" -l "           安装成功!";
+			text     -al "center" -l " _____________________________________________________________________";
+
+			//button  -w 240 -ann "Maya重新启动。"  -label "重启Maya."  -command  "quit -force;";	
+			//button  -w 240 -ann "Maya重新启动。"  -label "重启Maya."  -command  "deleteUI tjh_modules_window;";	
+			button  -w 240 -ann "启动Maya工具盒主菜单。"  -label "启动Maya流程工具盒  主菜单."  -command  "deleteUI tjh_modules_window;tjh_pipeline_tools_Main";			
+
+	showWindow;
+     
+}
+
+//copy this mel to your module dir.and modify the $moduleName & $version for proc.
+tjh_module_Setup("tjh_pipeline_tools","1.1.5");
+
+
+
+
+
+

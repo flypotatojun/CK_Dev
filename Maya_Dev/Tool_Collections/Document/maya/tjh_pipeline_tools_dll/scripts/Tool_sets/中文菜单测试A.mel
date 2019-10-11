@@ -1,0 +1,20 @@
+
+//main UI
+global proc chs_sample()
+{
+	
+	if (` windowPref -exists sample_window `)
+		    windowPref -remove  sample_window;     
+			  
+			  if (` window -exists sample_window `)
+			  deleteUI sample_window;
+
+	
+	window  -w 300 -h 200   sample_window;
+	columnLayout;
+		button -l "中文菜单测试C" -c "source \"中文菜单测试C.mel\"";
+		button -l "中文菜单测试B" -c "source \"中文菜单测试B.mel\"";
+	showWindow sample_window;
+}
+
+chs_sample;
