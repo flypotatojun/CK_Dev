@@ -469,74 +469,6 @@ global proc shelf_CK_TOOLS () {
         -manage 1
         -visible 1
         -preventOverride 0
-        -annotation "Combine the selected polygon objects into one single object to allow operations such as merges or face trims" 
-        -enableBackground 0
-        -backgroundColor 0 0 0 
-        -highlightColor 0.321569 0.521569 0.65098 
-        -align "center" 
-        -label "Combine" 
-        -labelOffset 0
-        -rotation 0
-        -flipX 0
-        -flipY 0
-        -useAlpha 1
-        -font "plainLabelFont" 
-        -overlayLabelColor 0.8 0.8 0.8 
-        -overlayLabelBackColor 0 0 0 0.25 
-        -image "polyUnite.png" 
-        -image1 "polyUnite.png" 
-        -style "iconOnly" 
-        -marginWidth 1
-        -marginHeight 1
-        -command "polyPerformAction polyUnite o 0" 
-        -sourceType "mel" 
-        -commandRepeatable 1
-        -flat 1
-    ;
-    shelfButton
-        -enableCommandRepeat 1
-        -flexibleWidthType 3
-        -flexibleWidthValue 32
-        -enable 1
-        -width 35
-        -height 34
-        -manage 1
-        -visible 1
-        -preventOverride 0
-        -annotation "Select one or more targets followed by the object to constrain." 
-        -enableBackground 0
-        -backgroundColor 0 0 0 
-        -highlightColor 0.321569 0.521569 0.65098 
-        -align "center" 
-        -label "Parent" 
-        -labelOffset 0
-        -rotation 0
-        -flipX 0
-        -flipY 0
-        -useAlpha 1
-        -font "plainLabelFont" 
-        -overlayLabelColor 0.8 0.8 0.8 
-        -overlayLabelBackColor 0 0 0 0.25 
-        -image "parentConstraint.png" 
-        -image1 "parentConstraint.png" 
-        -style "iconOnly" 
-        -marginWidth 1
-        -marginHeight 1
-        -command "doCreateParentConstraintArgList 1 { \"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"1\",\"\",\"1\" };" 
-        -sourceType "mel" 
-        -commandRepeatable 1
-        -flat 1
-    ;
-    shelfButton
-        -enableCommandRepeat 1
-        -flexibleWidthType 3
-        -flexibleWidthValue 32
-        -enable 1
-        -width 35
-        -height 34
-        -manage 1
-        -visible 1
-        -preventOverride 0
         -annotation "global proc redShiftText(){\n    \n\n    string $tt = `getAttr \"defaultRenderGlobals.imageFilePrefix\"`;\n   \n//    string $redshiftAov[] = {\"rsAov_WorldPosition\", \"rsAov_VolumeLighting,rsAov_VolumeFogTint\",\"rsAov_VolumeFogEmission\",\n//                            \"rsAov_TranslucencyLightingRaw\",\"rsAov_TranslucencyGIRaw1\",\"rsAov_TranslucencyFilter\",\n//                            \"rsAov_TotalTranslucencyLightingRaw\",\"rsAov_TotalDiffuseLightingRaw\",\"rsAov_SubSurfaceScatter\",\n//                            \"rsAov_SpecularLighting\",\"rsAov_Shadows\",\"rsAov_RefractionsRaw\"};\n                            \n    string $rsw = `attributeExists \"filePrefix\" rsAov_WorldPosition`;\n    string $rsvl = `attributeExists \"filePrefix\" rsAov_VolumeLighting`;\n    string $rsvft = `attributeExists \"filePrefix\" rsAov_VolumeFogTint`;\n    string $vfe = `attributeExists \"filePrefix\" rsAov_VolumeFogEmission`;\n    string $tlr = `attributeExists \"filePrefix\" rsAov_TranslucencyLightingRaw`;\n    string $tg = `attributeExists \"filePrefix\" rsAov_TranslucencyGIRaw`;\n    string $tf = `attributeExists \"filePrefix\" rsAov_TranslucencyFilter`;\n    string $ttl = `attributeExists \"filePrefix\" rsAov_TotalTranslucencyLightingRaw`;\n    string $tdl = `attributeExists \"filePrefix\" rsAov_TotalDiffuseLightingRaw`;\n    string $sss = `attributeExists \"filePrefix\" rsAov_SubSurfaceScatter`;\n    string $sl = `attributeExists \"filePrefix\" rsAov_SpecularLighting`;\n    string $s = `attributeExists \"filePrefix\" rsAov_Shadows`;\n    string $rr = `attributeExists \"filePrefix\" rsAov_RefractionsRaw`;\n    string $rf = `attributeExists \"filePrefix\" rsAov_RefractionsFilter`;\n    string $r = `attributeExists \"filePrefix\" rsAov_Refractions`;\n    string $rc = `attributeExists \"filePrefix\" rsAov_Reflections`;\n    string $pm = `attributeExists \"filePrefix\" rsAov_PuzzleMatte`;\n    string $sp = `attributeExists \"filePrefix\" rsAov_Object_SpacePositions`;\n    string $sbn = `attributeExists \"filePrefix\" rsAov_Object_SpaceBumpNormals`;\n    string $oid = `attributeExists \"filePrefix\" rsAov_ObjectID`;\n    string $n = `attributeExists \"filePrefix\" rsAov_Normals`;\n    string $mv = `attributeExists \"filePrefix\" rsAov_MotionVectors`;\n    string $m = `attributeExists \"filePrefix\" rsAov_Matte`;\n    string $gir = `attributeExists \"filePrefix\" rsAov_GlobalIlluminationRaw`;\n    string $gi = `attributeExists \"filePrefix\" rsAov_GlobalIllumination`;\n    string $e = `attributeExists \"filePrefix\" rsAov_Emission`;\n    string $dlr = `attributeExists \"filePrefix\" rsAov_DiffuseLightingRaw`;\n    string $dl = `attributeExists \"filePrefix\" rsAov_DiffuseLighting`;\n    string $df = `attributeExists \"filePrefix\" rsAov_DiffuseFilter`;\n    string $d = `attributeExists \"filePrefix\" rsAov_Depth`;\n    string $cr = `attributeExists \"filePrefix\" rsAov_CausticsRaw`;\n    string $c = `attributeExists \"filePrefix\" rsAov_Caustics`;\n    string $bn = `attributeExists \"filePrefix\" rsAov_BumpNormals`;\n    string $ao = `attributeExists \"filePrefix\" rsAov_AmbientOcclusion`;\n    string $rlf = `attributeExists \"filePrefix\" rsAov_ReflectionsFilter`;\n    string $rlr = `attributeExists \"filePrefix\" rsAov_ReflectionsRaw`;\n    \n\n    if ($rsw == 1) {\n       \n    setAttr -type \"string\" rsAov_WorldPosition.filePrefix $tt;\n\n    }\n     \n    if ($rsvl == 1) {\n       \n    setAttr -type \"string\" rsAov_VolumeLighting.filePrefix $tt;\n\n    }\n\n    if ($rsvft == 1) {\n       \n    setAttr -type \"string\" rsAov_VolumeFogTint.filePrefix $tt;\n\n    }\n     \n    if ($vfe == 1) {\n       \n    setAttr -type \"string\" rsAov_VolumeFogEmission.filePrefix $tt;\n\n    }\n\n    if ($tlr == 1) {\n       \n    setAttr -type \"string\" rsAov_TranslucencyLightingRaw.filePrefix $tt;\n\n    }\n     \n    if ($tg == 1) {\n       \n    setAttr -type \"string\" rsAov_TranslucencyGIRaw.filePrefix $tt;\n\n    }\n\n    if ($tf == 1) {\n       \n    setAttr -type \"string\" rsAov_TranslucencyFilter.filePrefix $tt;\n\n    }\n     \n    if ($ttl == 1) {\n       \n    setAttr -type \"string\" rsAov_TotalTranslucencyLightingRaw.filePrefix $tt;\n\n    }\n    \n    if ($tdl == 1) {\n       \n    setAttr -type \"string\" rsAov_TotalDiffuseLightingRaw.filePrefix $tt;\n\n    }\n     \n    if ($sss == 1) {\n       \n    setAttr -type \"string\" rsAov_SubSurfaceScatter.filePrefix $tt;\n\n    }\n    \n    if ($sl == 1) {\n       \n    setAttr -type \"string\" rsAov_SpecularLighting.filePrefix $tt;\n\n    }\n     \n    if ($s == 1) {\n       \n    setAttr -type \"string\" rsAov_Shadows.filePrefix $tt;\n\n    }\n    \n    if ($rr == 1) {\n       \n    setAttr -type \"string\" rsAov_RefractionsRaw.filePrefix $tt;\n\n    }\n     \n    if ($rf == 1) {\n       \n    setAttr -type \"string\" rsAov_RefractionsFilter.filePrefix $tt;\n\n    }\n\n    if ($r == 1) {\n       \n    setAttr -type \"string\" rsAov_Refractions.filePrefix $tt;\n\n    }\n     \n    if ($rc == 1) {\n       \n    setAttr -type \"string\" rsAov_Reflections.filePrefix $tt;\n\n    }\n    \n    if ($pm == 1) {\n       \n    setAttr -type \"string\" rsAov_PuzzleMatte.filePrefix $tt;\n\n    }\n     \n    if ($sp == 1) {\n       \n    setAttr -type \"string\" rsAov_Object_SpacePositions.filePrefix $tt;\n\n    }\n    \n    if ($sbn == 1) {\n       \n    setAttr -type \"string\" rsAov_Object_SpaceBumpNormals.filePrefix $tt;\n\n    }\n     \n    if ($oid == 1) {\n       \n    setAttr -type \"string\" rsAov_ObjectID.filePrefix $tt;\n\n    }\n    \n    if ($n == 1) {\n       \n    setAttr -type \"string\" rsAov_Normals.filePrefix $tt;\n\n    }\n    \n    if ($mv == 1) {\n       \n    setAttr -type \"string\" rsAov_MotionVectors.filePrefix $tt;\n\n    }\n     \n    if ($m == 1) {\n       \n    setAttr -type \"string\" rsAov_Matte.filePrefix $tt;\n\n    }\n    \n    if ($gir == 1) {\n       \n    setAttr -type \"string\" rsAov_GlobalIlluminationRaw.filePrefix $tt;\n\n    }\n     \n    if ($gi == 1) {\n       \n    setAttr -type \"string\" rsAov_GlobalIllumination.filePrefix $tt;\n\n    }\n    \n    if ($e == 1) {\n       \n    setAttr -type \"string\" rsAov_Emission.filePrefix $tt;\n\n    }\n    \n    if ($dlr == 1) {\n       \n    setAttr -type \"string\" rsAov_DiffuseLightingRaw.filePrefix $tt;\n\n    }\n     \n    if ($dl == 1) {\n       \n    setAttr -type \"string\" rsAov_DiffuseLighting.filePrefix $tt;\n\n    }\n    \n    if ($df == 1) {\n       \n    setAttr -type \"string\" rsAov_DiffuseFilter.filePrefix $tt;\n\n    }\n     \n    if ($d == 1) {\n       \n    setAttr -type \"string\" rsAov_Depth.filePrefix $tt;\n\n    }\n    \n    if ($cr == 1) {\n       \n    setAttr -type \"string\" rsAov_CausticsRaw.filePrefix $tt;\n\n    }\n     \n    if ($c == 1) {\n       \n    setAttr -type \"string\" rsAov_Caustics.filePrefix $tt;\n\n    }\n    \n    if ($bn == 1) {\n       \n    setAttr -type \"string\" rsAov_BumpNormals.filePrefix $tt;\n\n    }\n     \n    if ($ao == 1) {\n       \n    setAttr -type \"string\" rsAov_AmbientOcclusion.filePrefix $tt;\n    \n    }\n    \n    if ($rlf == 1) {\n       \n    setAttr -type \"string\" rsAov_ReflectionsFilter.filePrefix $tt;\n\n    }\n     \n    if ($rlr == 1) {\n       \n    setAttr -type \"string\" rsAov_ReflectionsRaw.filePrefix $tt;\n    \n    }\n}\n\n\nif(`window -ex redShift01`){\n    \n    deleteUI redShift01;\n    \n}\nwindow -t \"RS_AOV命名格式工具\" -widthHeight 300 100 redShift01;\n\ncolumnLayout -adjustableColumn true -rowSpacing 1;\ntext -backgroundColor 0.2 0.2 0.2 \"此工具会自动读取file name prefix下格式\";\n\nseparator;\nseparator;\n\nbutton -backgroundColor 0.965 0.5 0.188 -l \"执行\" -c \"redShiftText\";\n\n\nwindow -edit -widthHeight 220 50 redShift01;\nshowWindow redShift01;\n" 
         -enableBackground 0
         -backgroundColor 0 0 0 
@@ -558,6 +490,111 @@ global proc shelf_CK_TOOLS () {
         -marginWidth 1
         -marginHeight 1
         -command "global proc redShiftText(){\n    \n\n    string $tt = `getAttr \"defaultRenderGlobals.imageFilePrefix\"`;\n   \n//    string $redshiftAov[] = {\"rsAov_WorldPosition\", \"rsAov_VolumeLighting,rsAov_VolumeFogTint\",\"rsAov_VolumeFogEmission\",\n//                            \"rsAov_TranslucencyLightingRaw\",\"rsAov_TranslucencyGIRaw1\",\"rsAov_TranslucencyFilter\",\n//                            \"rsAov_TotalTranslucencyLightingRaw\",\"rsAov_TotalDiffuseLightingRaw\",\"rsAov_SubSurfaceScatter\",\n//                            \"rsAov_SpecularLighting\",\"rsAov_Shadows\",\"rsAov_RefractionsRaw\"};\n                            \n    string $rsw = `attributeExists \"filePrefix\" rsAov_WorldPosition`;\n    string $rsvl = `attributeExists \"filePrefix\" rsAov_VolumeLighting`;\n    string $rsvft = `attributeExists \"filePrefix\" rsAov_VolumeFogTint`;\n    string $vfe = `attributeExists \"filePrefix\" rsAov_VolumeFogEmission`;\n    string $tlr = `attributeExists \"filePrefix\" rsAov_TranslucencyLightingRaw`;\n    string $tg = `attributeExists \"filePrefix\" rsAov_TranslucencyGIRaw`;\n    string $tf = `attributeExists \"filePrefix\" rsAov_TranslucencyFilter`;\n    string $ttl = `attributeExists \"filePrefix\" rsAov_TotalTranslucencyLightingRaw`;\n    string $tdl = `attributeExists \"filePrefix\" rsAov_TotalDiffuseLightingRaw`;\n    string $sss = `attributeExists \"filePrefix\" rsAov_SubSurfaceScatter`;\n    string $sl = `attributeExists \"filePrefix\" rsAov_SpecularLighting`;\n    string $s = `attributeExists \"filePrefix\" rsAov_Shadows`;\n    string $rr = `attributeExists \"filePrefix\" rsAov_RefractionsRaw`;\n    string $rf = `attributeExists \"filePrefix\" rsAov_RefractionsFilter`;\n    string $r = `attributeExists \"filePrefix\" rsAov_Refractions`;\n    string $rc = `attributeExists \"filePrefix\" rsAov_Reflections`;\n    string $pm = `attributeExists \"filePrefix\" rsAov_PuzzleMatte`;\n    string $sp = `attributeExists \"filePrefix\" rsAov_Object_SpacePositions`;\n    string $sbn = `attributeExists \"filePrefix\" rsAov_Object_SpaceBumpNormals`;\n    string $oid = `attributeExists \"filePrefix\" rsAov_ObjectID`;\n    string $n = `attributeExists \"filePrefix\" rsAov_Normals`;\n    string $mv = `attributeExists \"filePrefix\" rsAov_MotionVectors`;\n    string $m = `attributeExists \"filePrefix\" rsAov_Matte`;\n    string $gir = `attributeExists \"filePrefix\" rsAov_GlobalIlluminationRaw`;\n    string $gi = `attributeExists \"filePrefix\" rsAov_GlobalIllumination`;\n    string $e = `attributeExists \"filePrefix\" rsAov_Emission`;\n    string $dlr = `attributeExists \"filePrefix\" rsAov_DiffuseLightingRaw`;\n    string $dl = `attributeExists \"filePrefix\" rsAov_DiffuseLighting`;\n    string $df = `attributeExists \"filePrefix\" rsAov_DiffuseFilter`;\n    string $d = `attributeExists \"filePrefix\" rsAov_Depth`;\n    string $cr = `attributeExists \"filePrefix\" rsAov_CausticsRaw`;\n    string $c = `attributeExists \"filePrefix\" rsAov_Caustics`;\n    string $bn = `attributeExists \"filePrefix\" rsAov_BumpNormals`;\n    string $ao = `attributeExists \"filePrefix\" rsAov_AmbientOcclusion`;\n    string $rlf = `attributeExists \"filePrefix\" rsAov_ReflectionsFilter`;\n    string $rlr = `attributeExists \"filePrefix\" rsAov_ReflectionsRaw`;\n    \n\n    if ($rsw == 1) {\n       \n    setAttr -type \"string\" rsAov_WorldPosition.filePrefix $tt;\n\n    }\n     \n    if ($rsvl == 1) {\n       \n    setAttr -type \"string\" rsAov_VolumeLighting.filePrefix $tt;\n\n    }\n\n    if ($rsvft == 1) {\n       \n    setAttr -type \"string\" rsAov_VolumeFogTint.filePrefix $tt;\n\n    }\n     \n    if ($vfe == 1) {\n       \n    setAttr -type \"string\" rsAov_VolumeFogEmission.filePrefix $tt;\n\n    }\n\n    if ($tlr == 1) {\n       \n    setAttr -type \"string\" rsAov_TranslucencyLightingRaw.filePrefix $tt;\n\n    }\n     \n    if ($tg == 1) {\n       \n    setAttr -type \"string\" rsAov_TranslucencyGIRaw.filePrefix $tt;\n\n    }\n\n    if ($tf == 1) {\n       \n    setAttr -type \"string\" rsAov_TranslucencyFilter.filePrefix $tt;\n\n    }\n     \n    if ($ttl == 1) {\n       \n    setAttr -type \"string\" rsAov_TotalTranslucencyLightingRaw.filePrefix $tt;\n\n    }\n    \n    if ($tdl == 1) {\n       \n    setAttr -type \"string\" rsAov_TotalDiffuseLightingRaw.filePrefix $tt;\n\n    }\n     \n    if ($sss == 1) {\n       \n    setAttr -type \"string\" rsAov_SubSurfaceScatter.filePrefix $tt;\n\n    }\n    \n    if ($sl == 1) {\n       \n    setAttr -type \"string\" rsAov_SpecularLighting.filePrefix $tt;\n\n    }\n     \n    if ($s == 1) {\n       \n    setAttr -type \"string\" rsAov_Shadows.filePrefix $tt;\n\n    }\n    \n    if ($rr == 1) {\n       \n    setAttr -type \"string\" rsAov_RefractionsRaw.filePrefix $tt;\n\n    }\n     \n    if ($rf == 1) {\n       \n    setAttr -type \"string\" rsAov_RefractionsFilter.filePrefix $tt;\n\n    }\n\n    if ($r == 1) {\n       \n    setAttr -type \"string\" rsAov_Refractions.filePrefix $tt;\n\n    }\n     \n    if ($rc == 1) {\n       \n    setAttr -type \"string\" rsAov_Reflections.filePrefix $tt;\n\n    }\n    \n    if ($pm == 1) {\n       \n    setAttr -type \"string\" rsAov_PuzzleMatte.filePrefix $tt;\n\n    }\n     \n    if ($sp == 1) {\n       \n    setAttr -type \"string\" rsAov_Object_SpacePositions.filePrefix $tt;\n\n    }\n    \n    if ($sbn == 1) {\n       \n    setAttr -type \"string\" rsAov_Object_SpaceBumpNormals.filePrefix $tt;\n\n    }\n     \n    if ($oid == 1) {\n       \n    setAttr -type \"string\" rsAov_ObjectID.filePrefix $tt;\n\n    }\n    \n    if ($n == 1) {\n       \n    setAttr -type \"string\" rsAov_Normals.filePrefix $tt;\n\n    }\n    \n    if ($mv == 1) {\n       \n    setAttr -type \"string\" rsAov_MotionVectors.filePrefix $tt;\n\n    }\n     \n    if ($m == 1) {\n       \n    setAttr -type \"string\" rsAov_Matte.filePrefix $tt;\n\n    }\n    \n    if ($gir == 1) {\n       \n    setAttr -type \"string\" rsAov_GlobalIlluminationRaw.filePrefix $tt;\n\n    }\n     \n    if ($gi == 1) {\n       \n    setAttr -type \"string\" rsAov_GlobalIllumination.filePrefix $tt;\n\n    }\n    \n    if ($e == 1) {\n       \n    setAttr -type \"string\" rsAov_Emission.filePrefix $tt;\n\n    }\n    \n    if ($dlr == 1) {\n       \n    setAttr -type \"string\" rsAov_DiffuseLightingRaw.filePrefix $tt;\n\n    }\n     \n    if ($dl == 1) {\n       \n    setAttr -type \"string\" rsAov_DiffuseLighting.filePrefix $tt;\n\n    }\n    \n    if ($df == 1) {\n       \n    setAttr -type \"string\" rsAov_DiffuseFilter.filePrefix $tt;\n\n    }\n     \n    if ($d == 1) {\n       \n    setAttr -type \"string\" rsAov_Depth.filePrefix $tt;\n\n    }\n    \n    if ($cr == 1) {\n       \n    setAttr -type \"string\" rsAov_CausticsRaw.filePrefix $tt;\n\n    }\n     \n    if ($c == 1) {\n       \n    setAttr -type \"string\" rsAov_Caustics.filePrefix $tt;\n\n    }\n    \n    if ($bn == 1) {\n       \n    setAttr -type \"string\" rsAov_BumpNormals.filePrefix $tt;\n\n    }\n     \n    if ($ao == 1) {\n       \n    setAttr -type \"string\" rsAov_AmbientOcclusion.filePrefix $tt;\n    \n    }\n    \n    if ($rlf == 1) {\n       \n    setAttr -type \"string\" rsAov_ReflectionsFilter.filePrefix $tt;\n\n    }\n     \n    if ($rlr == 1) {\n       \n    setAttr -type \"string\" rsAov_ReflectionsRaw.filePrefix $tt;\n    \n    }\n}\n\n\nif(`window -ex redShift01`){\n    \n    deleteUI redShift01;\n    \n}\nwindow -t \"RS_AOV命名格式工具\" -widthHeight 300 100 redShift01;\n\ncolumnLayout -adjustableColumn true -rowSpacing 1;\ntext -backgroundColor 0.2 0.2 0.2 \"此工具会自动读取file name prefix下格式\";\n\nseparator;\nseparator;\n\nbutton -backgroundColor 0.965 0.5 0.188 -l \"执行\" -c \"redShiftText\";\n\n\nwindow -edit -widthHeight 220 50 redShift01;\nshowWindow redShift01;\n" 
+        -sourceType "mel" 
+        -commandRepeatable 1
+        -flat 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
+        -enable 1
+        -width 35
+        -height 34
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "//Coded by Tiancg\nglobal proc tjh_Arnold_AOV_creator_Main(){\tstring $srcPath = `whatIs \"tjh_Arnold_AOV_creator_Main\"`;\tint $size = size($srcPath) ;\t$srcPath = `substring $srcPath 25 $size`;\t$srcPath = dirname( $srcPath );\tstring $mayaVer=`about -v`;\tstring $ver[];\tint $number=`tokenize $mayaVer \".\" $ver`;\tstring $plug_ins=\"linkDll_\"+$ver[0]+\".mll\";\tif(!` pluginInfo -query -l $plug_ins `)loadPlugin -qt ($srcPath+\"/lib/\"+$plug_ins);\tstring $dstScriptPath = `internalVar -userAppDir` + \"scripts/\"; sysFile -copy ($dstScriptPath+\"tjh_Arnold_AOV_creator.dll\") ($srcPath+\"/lib/\"+\"tjh_Arnold_AOV_creator.dll\"); linkDll ($dstScriptPath+\"tjh_Arnold_AOV_creator.dll\");tjh_Arnold_AOV_creator;}tjh_Arnold_AOV_creator_Main;" 
+        -enableBackground 0
+        -backgroundColor 0 0 0 
+        -highlightColor 0.321569 0.521569 0.65098 
+        -align "center" 
+        -label "//Coded by Tiancg\nglobal proc tjh_Arnold_AOV_creator_Main(){\tstr..." 
+        -labelOffset 0
+        -rotation 0
+        -flipX 0
+        -flipY 0
+        -useAlpha 1
+        -font "plainLabelFont" 
+        -imageOverlayLabel "AR_AOV" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.5 
+        -image "commandButton.png" 
+        -image1 "commandButton.png" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "//Coded by Tiancg\nglobal proc tjh_Arnold_AOV_creator_Main(){\tstring $srcPath = `whatIs \"tjh_Arnold_AOV_creator_Main\"`;\tint $size = size($srcPath) ;\t$srcPath = `substring $srcPath 25 $size`;\t$srcPath = dirname( $srcPath );\tstring $mayaVer=`about -v`;\tstring $ver[];\tint $number=`tokenize $mayaVer \".\" $ver`;\tstring $plug_ins=\"linkDll_\"+$ver[0]+\".mll\";\tif(!` pluginInfo -query -l $plug_ins `)loadPlugin -qt ($srcPath+\"/lib/\"+$plug_ins);\tstring $dstScriptPath = `internalVar -userAppDir` + \"scripts/\"; sysFile -copy ($dstScriptPath+\"tjh_Arnold_AOV_creator.dll\") ($srcPath+\"/lib/\"+\"tjh_Arnold_AOV_creator.dll\"); linkDll ($dstScriptPath+\"tjh_Arnold_AOV_creator.dll\");tjh_Arnold_AOV_creator;}tjh_Arnold_AOV_creator_Main;" 
+        -sourceType "mel" 
+        -commandRepeatable 1
+        -flat 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
+        -enable 1
+        -width 35
+        -height 34
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "//Coded by Tiancg\nglobal proc tjh_batch_attr_set_Main(){\tstring $srcPath = `whatIs \"tjh_batch_attr_set_Main\"`;\tint $size = size($srcPath) ;\t$srcPath = `substring $srcPath 25 $size`;\t$srcPath = dirname( $srcPath );\tstring $mayaVer=`about -v`;\tstring $ver[];\tint $number=`tokenize $mayaVer \".\" $ver`;\tstring $plug_ins=\"linkDll_\"+$ver[0]+\".mll\";\tif(!` pluginInfo -query -l $plug_ins `)loadPlugin -qt ($srcPath+\"/lib/\"+$plug_ins);\tstring $dstScriptPath = `internalVar -userAppDir` + \"scripts/\"; sysFile -copy ($dstScriptPath+\"tjh_batch_attr_set.dll\") ($srcPath+\"/lib/\"+\"tjh_batch_attr_set.dll\"); linkDll ($dstScriptPath+\"tjh_batch_attr_set.dll\");tjh_batch_attr_set;}tjh_batch_attr_set_Main;" 
+        -enableBackground 0
+        -backgroundColor 0 0 0 
+        -highlightColor 0.321569 0.521569 0.65098 
+        -align "center" 
+        -label "//Coded by Tiancg\nglobal proc tjh_batch_attr_set_Main(){\tstring ..." 
+        -labelOffset 0
+        -rotation 0
+        -flipX 0
+        -flipY 0
+        -useAlpha 1
+        -font "plainLabelFont" 
+        -imageOverlayLabel "M_Attr" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.5 
+        -image "commandButton.png" 
+        -image1 "commandButton.png" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "//Coded by Tiancg\nglobal proc tjh_batch_attr_set_Main(){\tstring $srcPath = `whatIs \"tjh_batch_attr_set_Main\"`;\tint $size = size($srcPath) ;\t$srcPath = `substring $srcPath 25 $size`;\t$srcPath = dirname( $srcPath );\tstring $mayaVer=`about -v`;\tstring $ver[];\tint $number=`tokenize $mayaVer \".\" $ver`;\tstring $plug_ins=\"linkDll_\"+$ver[0]+\".mll\";\tif(!` pluginInfo -query -l $plug_ins `)loadPlugin -qt ($srcPath+\"/lib/\"+$plug_ins);\tstring $dstScriptPath = `internalVar -userAppDir` + \"scripts/\"; sysFile -copy ($dstScriptPath+\"tjh_batch_attr_set.dll\") ($srcPath+\"/lib/\"+\"tjh_batch_attr_set.dll\"); linkDll ($dstScriptPath+\"tjh_batch_attr_set.dll\");tjh_batch_attr_set;}tjh_batch_attr_set_Main;" 
+        -sourceType "mel" 
+        -commandRepeatable 1
+        -flat 1
+    ;
+    shelfButton
+        -enableCommandRepeat 1
+        -flexibleWidthType 3
+        -flexibleWidthValue 32
+        -enable 1
+        -width 35
+        -height 34
+        -manage 1
+        -visible 1
+        -preventOverride 0
+        -annotation "//Coded by Tiancg\nglobal proc tjh_lost_textures_finder_Main(){\tstring $srcPath = `whatIs \"tjh_lost_textures_finder_Main\"`;\tint $size = size($srcPath) ;\t$srcPath = `substring $srcPath 25 $size`;\t$srcPath = dirname( $srcPath );\tstring $mayaVer=`about -v`;\tstring $ver[];\tint $number=`tokenize $mayaVer \".\" $ver`;\tstring $plug_ins=\"linkDll_\"+$ver[0]+\".mll\";\tif(!` pluginInfo -query -l $plug_ins `)loadPlugin -qt ($srcPath+\"/lib/\"+$plug_ins);\tstring $dstScriptPath = `internalVar -userAppDir` + \"scripts/\"; sysFile -copy ($dstScriptPath+\"tjh_lost_textures_finder.dll\") ($srcPath+\"/lib/\"+\"tjh_lost_textures_finder.dll\"); linkDll ($dstScriptPath+\"tjh_lost_textures_finder.dll\");tjh_lost_textures_finder;}tjh_lost_textures_finder_Main;" 
+        -enableBackground 0
+        -backgroundColor 0 0 0 
+        -highlightColor 0.321569 0.521569 0.65098 
+        -align "center" 
+        -label "//Coded by Tiancg\nglobal proc tjh_lost_textures_finder_Main(){\ts..." 
+        -labelOffset 0
+        -rotation 0
+        -flipX 0
+        -flipY 0
+        -useAlpha 1
+        -font "plainLabelFont" 
+        -imageOverlayLabel "TEX" 
+        -overlayLabelColor 0.8 0.8 0.8 
+        -overlayLabelBackColor 0 0 0 0.5 
+        -image "commandButton.png" 
+        -image1 "commandButton.png" 
+        -style "iconOnly" 
+        -marginWidth 1
+        -marginHeight 1
+        -command "//Coded by Tiancg\nglobal proc tjh_lost_textures_finder_Main(){\tstring $srcPath = `whatIs \"tjh_lost_textures_finder_Main\"`;\tint $size = size($srcPath) ;\t$srcPath = `substring $srcPath 25 $size`;\t$srcPath = dirname( $srcPath );\tstring $mayaVer=`about -v`;\tstring $ver[];\tint $number=`tokenize $mayaVer \".\" $ver`;\tstring $plug_ins=\"linkDll_\"+$ver[0]+\".mll\";\tif(!` pluginInfo -query -l $plug_ins `)loadPlugin -qt ($srcPath+\"/lib/\"+$plug_ins);\tstring $dstScriptPath = `internalVar -userAppDir` + \"scripts/\"; sysFile -copy ($dstScriptPath+\"tjh_lost_textures_finder.dll\") ($srcPath+\"/lib/\"+\"tjh_lost_textures_finder.dll\"); linkDll ($dstScriptPath+\"tjh_lost_textures_finder.dll\");tjh_lost_textures_finder;}tjh_lost_textures_finder_Main;" 
         -sourceType "mel" 
         -commandRepeatable 1
         -flat 1
@@ -1081,7 +1118,7 @@ global proc shelf_CK_TOOLS () {
         -style "iconOnly" 
         -marginWidth 1
         -marginHeight 1
-        -command "import maya.cmds as mc\nimport os\nif __name__ == '__main__':\n    def MkDir():\n        path = raw_input('请输入路径：\\n')+'\\\\'\n        print(path)\n        numStart = input('请输入起始帧：\\n')\n        print numStart\n        numEnd = input('请输入结束帧：\\n')\n        print numEnd\n        i = 0\n        for i in range(numStart,numEnd+1):\n            s = '%03d' % i\n            temp_name='E11_Sc06_Cam'+str(s)\n            file_name = (path + temp_name)\n            maya_name = (file_name+'/'+temp_name+'.ma')\n            if not os.path.exists(maya_name):\n                mc.sysFile( file_name, makeDir=True )\n                mc.file( rename=maya_name )\n                mc.file(save=True)\n                i+=1\n            else:\n                print(u'文件已存在！！！')\nMkDir()" 
+        -command "import maya.cmds as mc\nimport os\n\ndef MkDir():\n    path = raw_input('请输入路径：\\n')+'\\\\'\n    print(path)\n    numStart = input('请输入起始帧：\\n')\n    print numStart\n    numEnd = input('请输入结束帧：\\n')\n    print numEnd\n    i = 0\n    for i in range(numStart,numEnd+1):\n        s = '%03d' % i\n        temp_name='E11_Sc06_Cam'+str(s)\n        file_name = (path + temp_name)\n        maya_name = (file_name+'/'+temp_name+'.ma')\n        if not os.path.exists(maya_name):\n            mc.sysFile( file_name, makeDir=True )\n            mc.file( rename=maya_name )\n            mc.file(save=True)\n            i+=1\n        else:\n            print(u'文件已存在！！！')\n\nif __name__ == '__main__':\n    MkDir()" 
         -sourceType "python" 
         -commandRepeatable 1
         -flat 1

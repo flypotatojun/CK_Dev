@@ -16,6 +16,6 @@
     "editor.mouseWheelZoom": true,
     "editor.tabSize": 4,
     "window.title": " ${ activeEditorShort } ",
-    "python.linting.pep8Enabled": true,
+    "python.linting.pycodestyleEnabled": true,
     "editor.tabCompletion": "on"，
 }
