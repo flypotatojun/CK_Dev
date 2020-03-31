@@ -72,6 +72,5 @@ class CompImages(object):
 
 
 if __name__ == '__main__':
-    # run = CompImages(r'M:\BLK\Season_06\Output\BLK06_EP02\Keyframe', r'M:\BLK\Season_06\Output\BLK06_EP02\Keyframe')
     run = CompImages()
     run.addFont()
