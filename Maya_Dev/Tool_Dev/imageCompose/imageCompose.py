@@ -1,6 +1,7 @@
 # coding:utf-8
 
 import os
+import sys
 import shutil
 import time
 
@@ -14,8 +15,10 @@ imageSizeH = 1080
 
 class CompImages(object):
     def __init__(self, imagesPath=None, outputPath=None, imageFomat=[]):
-        self.imagesPath = os.path.dirname(__file__)
-        self.outputPath = os.path.dirname(__file__)
+        # self.imagesPath = os.path.dirname(__file__)
+        # self.outputPath = os.path.dirname(__file__)
+        self.imagesPath = sys.argv[1]
+        self.outputPath = sys.argv[1]
         self.imageFomat = ['.tif', '.tiff']
         self.tempPath = (self.outputPath + '/temp/')
         self.imagesName = [i for i in os.listdir(self.imagesPath) for item in self.imageFomat if
@@ -26,7 +29,7 @@ class CompImages(object):
             os.mkdir(self.tempPath)
             # print(self.tempPath)
 
-        self.fileName = (self.imagesName[3].split('.')[0])[0:10]
+        self.fileName = (self.imagesName[1].split('.')[0])[0:10]
         # print(self.fileName)
         print('=' * 80)
     def addFont(self):
