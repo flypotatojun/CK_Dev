@@ -1,0 +1,17 @@
+global proc chsopenB()
+{
+	
+	if (` windowPref -exists chsopenB_window `)
+		    windowPref -remove  chsopenB_window;     
+			  
+			  if (` window -exists chsopenB_window `)
+			  deleteUI chsopenB_window;
+
+	
+	window -w 200 -h 150 -topLeftCorner 300 200 chsopenB_window;
+		columnLayout;
+		text -l "÷–Œƒ√¸¡ÓB window";
+	showWindow chsopenB_window;
+}
+
+chsopenB;

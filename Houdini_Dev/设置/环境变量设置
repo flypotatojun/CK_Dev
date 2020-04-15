@@ -1,0 +1,6 @@
+在系统环境变量PATH:"C:\Users\CK\Documents\houdini17.0\scripts\python"
+
+显示系统变量路径
+import sys
+from pprint import pprint
+pprint(sys.path)

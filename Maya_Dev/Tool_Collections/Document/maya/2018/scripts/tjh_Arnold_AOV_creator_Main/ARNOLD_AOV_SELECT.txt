@@ -1,0 +1,61 @@
+set cut_paste_input [stack 0]
+version 11.0 v1
+Read {
+ inputs 0
+ file C:/Users/CK/Desktop/aov.exr
+ format "1280 720 0 0 1280 720 1 HD_720"
+ origset true
+ name Read8
+ selected true
+ xpos 589
+ ypos 335
+}
+set Ne8f1f880 [stack 0]
+add_layer {ID ID.red ID.green ID.blue}
+Shuffle {
+ in ID
+ name Shuffle1
+ selected true
+ xpos 767
+ ypos 365
+}
+Expression {
+ expr0 " (g>pickcolor.g-0.001?1:0 )-(g>pickcolor.g+0.001 ?1:0 )"
+ expr2 " (g>pickcolor.g-0.001?1:0 )-(g>pickcolor.g+0.001 ?1:0 )"
+ channel3 alpha
+ expr3 " (g>pickcolor.g-0.001?1:0 )-(g>pickcolor.g+0.001 ?1:0 )"
+ name Nuke_ID_pass_taker5
+ selected true
+ xpos 767
+ ypos 408
+ addUserKnob {20 User_pickColor}
+ addUserKnob {18 pickcolor}
+ pickcolor {1 0.05705881119 1}
+ addUserKnob {6 pickcolor_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 pickcolor_panelDropped_1 l "panel dropped state" -STARTLINE +HIDDEN}
+}
+Premult {
+ name Premult5
+ selected true
+ xpos 767
+ ypos 443
+}
+push 0
+Merge2 {
+ inputs 2
+ operation plus
+ name Merge2
+ selected true
+ xpos 767
+ ypos 487
+}
+push $Ne8f1f880
+Grade {
+ inputs 1+1
+ white {0.9358 0.96 0.094662 0.96}
+ white_panelDropped true
+ name Grade1
+ selected true
+ xpos 589
+ ypos 487
+}

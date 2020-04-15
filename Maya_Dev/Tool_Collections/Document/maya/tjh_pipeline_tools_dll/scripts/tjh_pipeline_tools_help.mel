@@ -1,0 +1,4 @@
+global proc tjh_pipeline_tools_help()
+{
+	print "tjh pipeline tools help in 2016.edit the txt to new";
+}

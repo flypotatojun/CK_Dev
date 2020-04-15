@@ -1,0 +1,15 @@
+global proc openA()
+{
+	
+	if (` windowPref -exists openA_window `)
+		    windowPref -remove  openA_window;     
+			  
+			  if (` window -exists openA_window `)
+			  deleteUI openA_window;
+
+	
+	window -w 130 -h 100 -topLeftCorner 100 200 openA_window;
+		columnLayout;
+		text -l "sample openA window";
+	showWindow openA_window;
+}

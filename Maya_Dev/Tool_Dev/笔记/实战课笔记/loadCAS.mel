@@ -1,0 +1,5 @@
+global proc LoadShelf_CAS()
+{
+    global string $gShelfTopLevel;
+    if(`shelfLayout -exists "CAS"`){deleteUI -layout ($gShelfTopLevel + "|" + "CAS");}
+}

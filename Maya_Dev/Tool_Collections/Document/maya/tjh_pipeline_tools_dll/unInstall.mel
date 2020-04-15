@@ -1,0 +1,41 @@
+//coded by tiancg in 2019
+//maya module setup tools
+//usage:copy this mel to your mudole dir.and modify the $moduleName & $version for proc.
+
+
+global proc tjh_module_unInstall(string $moduleName,string $version){
+
+	string $dstScriptPath = toNativePath(`internalVar -userAppDir`);
+	//sysFile -delete  ($dstScriptPath+"\\scripts\\userSetup.mel");
+	sysFile -delete  ($dstScriptPath+"\\modules\\"+$moduleName+$version+".module");
+
+	//int    $fileDesId=`fopen ($dstScriptPath+"\\scripts\\userSetup.mel") "w"`;
+	//fprint $fileDesId "";
+	//fclose $fileDesId;
+
+	//close the module menu. optional.
+	if(`menu -exists tjh_pipeline_tools_globalMenu`)deleteUI -menu tjh_pipeline_tools_globalMenu;
+
+	
+	if (`windowPref -exists tjh_modules_window`)
+		    windowPref -remove tjh_modules_window;     
+
+			  
+			  if (`window -exists tjh_modules_window`)
+			  deleteUI tjh_modules_window;
+
+
+	window -w 260-h 100  tjh_modules_window;
+	columnLayout -columnAlign "center";						
+			text     -al "center" -l " ______________________________________________________";
+			text     -al "center" -l "  Uninstall ok ! " ;
+			text     -al "center" -l "           卸载成功，感谢使用，南无阿弥陀佛。";
+			text     -al "center" -l " _____________________________________________________";
+
+			//button  -w 240 -ann "Maya重新启动。"  -label "重启Maya."  -command  "quit -force;";	
+			button  -w 240 -ann "关闭窗口"  -label "关闭窗口."  -command  "deleteUI tjh_modules_window;";		
+
+	showWindow;
+     
+}
+tjh_module_unInstall("tjh_pipeline_tools","1.1.5");

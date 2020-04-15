@@ -1,0 +1,12 @@
+//coded by JingHai tian in 2016
+//工具说明：本工具用于对分体后的模型边缘进行快速光滑处理。
+//用途：用在一个同事的游戏换装系统中，因为maya模型打断后，边缘过于生硬有缝隙，此程序可以解决分体后，模型边缘的无缝效果。
+//使用方法：选择分体后的模型执行程序即可。
+
+
+global proc tjh_SeparatePolyEdgeAutoSmooth()
+{
+	polyConvertToShell;
+	polyConvertToShellBorder;
+	polyAverageNormal -distance 0.001;
+}

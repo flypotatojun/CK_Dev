@@ -1,0 +1,63 @@
+//coded by tiancg in 2016
+//this procedure is to source the  *.mel.dll files be combined by tiancgMel
+
+//get the script path 
+global proc string tjh_whatIs(string $mel)
+{
+	string $path = ` whatIs $mel `;
+	string $temp1[];
+ 	$num = `tokenize $path ":" $temp1`;
+	$path = strip ($temp1[1]+":"+$temp1[2]);
+
+	string $temp2[];
+ 	$num = `tokenize $path "/" $temp2`;
+	$path = $temp2[0];
+
+	for ( $i = 1; $i<( $num-1); $i++ )
+	{
+		$path = $path + "/" + $temp2[$i];		
+	}
+return	$path;	
+}
+
+
+
+global proc tjh_pipeline_tools_dll_load(string $file)//$file: *.mel.dll
+{
+	//load tiancgMelV_<maya version>.mll
+	string $mayaVer=`about -v`;
+	string $ver[];
+	int $number=`tokenize $mayaVer "." $ver`;
+	string $plug_ins="linkDll_"+$ver[0]+".mll";
+	
+	//load the tiancgMel mll.
+	if(!` pluginInfo -query -l $plug_ins `)loadPlugin -qt $plug_ins;
+	//unloadPlugin -qt $plug_ins;
+	//print ($plug_ins+" plug-ins is loaded !\n");
+
+
+	//get the tem dir path
+	//string $tmpPath = ` getenv "MAYA_APP_DIR"`;   // Result: C:/Users/Administrator/Documents/maya // 
+	//string $tmpPath =` internalVar -userAppDir`;// Result: C:/Users/Administrator/Documents/maya/ // 
+
+	//get the Dll path
+	string $srcPath = ` tjh_whatIs "tjh_pipeline_tools_dll_load"`;	//print ($srcPath+"\n");
+	
+
+	//copy the Dll to local tmpPath Dir
+	//sysFile -copy  ($tmpPath+"/"+$file+".dll") ($srcPath+"/"+$file+".dll");
+	//print  ($tmpPath+"/"+$file+"\n");
+	//print  ($srcPath+"/"+$file+"\n");
+			
+
+	//source the mel.Dll in tmp Dir
+	if(` filetest -e ($srcPath+"/"+$file+".dll")`){
+		//source the file
+		linkDll ($srcPath+"/"+$file+".dll");
+		//load the main UI proc
+		eval($file);
+	}else{
+		warning ($srcPath+"/"+$file+".dll"+" don't exist !");	
+	};
+
+}

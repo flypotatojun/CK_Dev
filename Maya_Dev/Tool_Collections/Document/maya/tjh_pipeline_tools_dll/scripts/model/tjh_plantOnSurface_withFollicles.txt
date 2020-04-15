@@ -1,0 +1,3 @@
+tjh_plantOnSurface_withFollicles
+
+在多边形表面种植毛囊工具。可以作为群体表面吸附工具。

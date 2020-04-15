@@ -1,0 +1,18 @@
+
+//main UI
+global proc sample()
+{
+	
+	if (` windowPref -exists sample_window `)
+		    windowPref -remove  sample_window;     
+			  
+			  if (` window -exists sample_window `)
+			  deleteUI sample_window;
+
+	
+	window  -w 300 -h 200   sample_window;
+	columnLayout;
+		button -l "openA" -c "openA";
+		button -l "openB" -c "openB";
+	showWindow sample_window;
+}

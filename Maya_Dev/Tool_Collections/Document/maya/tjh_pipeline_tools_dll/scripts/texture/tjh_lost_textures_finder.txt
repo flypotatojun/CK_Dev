@@ -1,0 +1,11 @@
+tjh_lost_textures_finder贴图查询与智能连接插件：
+
+本工具可以批量查询项目中贴图信息，
+
+并检测贴图是否丢失。
+
+比起 FileTextureManager_z 工具，具有更高的灵活度。
+
+支持子文件夹只能搜索。功能。
+
+使用教程网址：http://blog.sina.com.cn/s/blog_b2f983a501019787.html

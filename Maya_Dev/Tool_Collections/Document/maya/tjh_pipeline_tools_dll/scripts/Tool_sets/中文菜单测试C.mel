@@ -1,0 +1,17 @@
+global proc chsopenC()
+{
+	
+	if (` windowPref -exists chsopenC_window `)
+		    windowPref -remove  chsopenC_window;     
+			  
+			  if (` window -exists chsopenC_window `)
+			  deleteUI chsopenC_window;
+
+	
+	window -w 130 -h 100 -topLeftCorner 100 200 chsopenC_window;
+		columnLayout;
+		text -l "÷–Œƒ√¸¡ÓC window";
+	showWindow chsopenC_window;
+}
+
+chsopenC;

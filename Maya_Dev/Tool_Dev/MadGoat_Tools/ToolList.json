@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Model",
+        "tool_list": [
+            "Tool_a",
+            "Tool_b",
+            "Tool_c"
+        ]
+        
+    },
+    {
+        "name": "Render",
+        "tool_list": [
+            "Tool_d",
+            "Tool_e",
+            "Tool_f"
+        ]
+    },
+    {
+        "name": "Rig",
+        "tool_list": [
+            "Tool_g"
+        ]
+    }
+]
